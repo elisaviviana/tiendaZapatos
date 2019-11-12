@@ -1,0 +1,17 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+footer {
+  background: url(../img/smartphones.png);
+}
+
+.brands h3 { padding-bottom:10px;}
+.brands a { margin-right:30px;}

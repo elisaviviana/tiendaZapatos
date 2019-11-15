@@ -10,7 +10,7 @@
   </head>
   <body>
 <object data="header.html" width="100%" height="50px"></object>
-<section id="info-one">
+<section id="descripcion">
   <div class="container mb-5">
     <div class="row mt-5">
       <div class="col-md-6">
@@ -21,14 +21,15 @@
           <h2>Marca de Zapatos.</h2>
           <p>descripcion del producto</p>
           <label for="">Selecciona talle: </label>
-          <select  class="form-control form-control-sm " name="talle">
+          <select  class="form-control form-control-sm" id="talle" name="talle">
             <option value="" selected>Selecionar Talle</option>
             <option value="31">31</option>
             <option value="32" disabled>32</option>
             <option value="40" >40</option>
             <option value="42">42</option>
           </select>
-          <a href="carrito.html" class="btn btn-outline-secondary btn-md mt-3">Comprar</a>
+
+          <a href="carrito.html" class="btn btn-outline-secondary btn-md mt-3 carcomprar">Comprar</a>
         </div>
       </div>
     </div>
@@ -37,6 +38,7 @@
 
 <object data="footer.html" width="100%"></object>
 <!-- SCRIPTS -->
+<script src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->

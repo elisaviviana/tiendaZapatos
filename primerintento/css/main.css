@@ -10,6 +10,11 @@ body {
 
 }
 
+.objheader {
+  position: relative;
+  z-index: 20;
+}
+
 
 /* footer {
   background: url(/img/banner zapatos.jpg);

@@ -1,7 +1,8 @@
 footer {
   padding: 30px;
-  background-color: #f1f1f1;
-  
+
+  /* background-color: #f1f1f1; */
+
 
 }
 .navbar-brand {
@@ -15,9 +16,17 @@ body {
   font-family: 'Titillium Web', sans-serif;
   /* width: 100%;
   text-align: right;*/
-
-
-}
+  }
 .formulario{
   margin-bottom: 100px;
+}
+body #footer{
+  height: "400px";
+}
+
+#imagefooter {
+text-align: center;
+width: "70%";
+background-color: #f1f1f1;
+
 }

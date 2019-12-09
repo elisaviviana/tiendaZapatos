@@ -1,131 +1,145 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
-    <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
+  <!-- <object data="header.html" width="100%" height="70px"></object> -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
+      <a class="navbar-brand" href="index.html" target="_parent">Tienda Zapatos</a>
+      <button class="navbar-toggler btnheader" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="index.html" target="_parent">Productos</a>
+          <a class="nav-item nav-link" href="preguntas.html" target="_parent">Preguntas Frecuentes</a>
+          <a class="nav-item nav-link" href="contacto.html" target="_parent">Contacto</a>
+          <a class="nav-item nav-link " href="usuario.html" target="_parent">Modificar Usuario</a>
+          <a class="nav-item nav-link" href="registro.html" target="_parent"><img id="imagenheader" src="img/usuario20.png" alt="Usuario"> </a>
+          <a class="nav-item nav-link" href="carrito.html" target="_parent"><img id="imagencarrito" src="img/shoppingcart.png" alt="Carrito"> </a>
 
-
-  <div class="">
-
-  <object data="header.html" width="100%" height="70px"></object>
-
-        <div class="">
-
-        <div class="">
-            <div class="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="titulo text-center mt-3">
-                                <h2 class="titulo-ppal">Carrito de Compra</h2>
-                                <nav class="subtitulo mt-3">
-                                  <a class="breadcrumb-item" href="index.html">Productos</a>
-                                  <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">Carrito</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- inicio Carrito Cuerpo -->
-        <div class="mt-1 my-5">
-            <div class="container">
+      </div>
+    </nav>
+  </header>
+  <section id="cuerpo">
+    <div class="">
+      <div class="">
+        <div class="">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="titulo text-center mt-3">
+                  <h2 class="titulo-ppal">Carrito de Compra</h2>
+                  <nav class="subtitulo mt-3">
+                    <a class="breadcrumb-item" href="index.html">Productos</a>
+                    <span class="brd-separetor">/</span>
+                    <span class="breadcrumb-item active">Carrito</span>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- inicio Carrito Cuerpo -->
+      <div class="mt-1 my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-12">
+              <form class="carrito" action="#">
+                <div class="tabla_Contenido">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th class="product-thumbnail"></th>
+                        <th class="product-name">Producto</th>
+                        <th class="product-price">Precio</th>
+                        <th class="product-quantity" id="cantproductotitle">Cantidad</th>
+                        <th class="product-subtotal">Total</th>
+                        <th class="<product-></product->remove">Remover</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="product-thumbnail"><a href="descripcion.html"><img src="img/image1.jpg" id="imgproductocarrito" alt="producto" /></a></td>
+                        <td class="product-name"><a id="nameproducto" href="descripcion.html">Zapatilla Adida, Negro</a></td>
+                        <td class="product-price"><span class="importe">$2165.00</span></td>
+                        <td class="product-quantity"><input id="cantproducto" type="number" value="1" /></td>
+                        <td class="product-subtotal">$2165.00</td>
+                        <td class="product-remove "><a href="#"><img id="imagendelete" src="img/delete.png" alt="X" ></a></td>
+                      </tr>
+                      <tr>
+                        <td class="product-thumbnail"><a href="descripcion2.html"><img src="img/image2.jpg" id="imgproductocarrito" alt="producto" /></a></td>
+                        <td class="product-name"><a id="nameproducto" href="descripcion2.html">Zapatilla Adida, Blanca</a></td>
+                        <td class="product-price"><span class="importe">$3280.00</span></td>
+                        <td class="product-quantity"><input id="cantproducto" type="number" value="1" /></td>
+                        <td class="product-subtotal">$3280.00</td>
+                        <td class="product-remove "><a href="#"><img id="imagendelete" src="img/delete.png" alt="X" ></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-12">
-                        <form class="carrito" action="#">
-                            <div class="tabla_Contenido">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th class="product-thumbnail"></th>
-                                            <th class="product-name">Producto</th>
-                                            <th class="product-price">Precio</th>
-                                            <th class="product-quantity">Cantidad</th>
-                                            <th class="product-subtotal">Total</th>
-                                            <th class="product-remove">Remover</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="#"><img src="img/" width="20%" alt="producto" /></a></td>
-                                            <td class="product-name"><a href="#">Descripcion producto1</a></td>
-                                            <td class="product-price"><span class="importe">$2165.00</span></td>
-                                            <td class="product-quantity"><input type="number" value="1" /></td>
-                                            <td class="product-subtotal">$2165.00</td>
-                                            <td class="product-remove"><a href="#">X</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="#"><img src="img/" width="20%" alt="producto" /></a></td>
-                                            <td class="product-name"><a href="#">Descripcion producto2</a></td>
-                                            <td class="product-price"><span class="importe">$3280.00</span></td>
-                                            <td class="product-quantity"><input type="number" value="1" /></td>
-                                            <td class="product-subtotal">$3280.00</td>
-                                            <td class="product-remove"><a href="#">X</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-8 col-sm-12 mt-2">
-                                    <div class="botones-carrito">
-                                       <input class="btn btn-outline-secondary btn-md mt-3" type="submit" value="Actualizar Compra" />
-                                       <a href="index.html" class="btn btn-outline-secondary btn-md mt-3">Continuar comprando</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-12 ">
-                                    <div class="compra_total">
-                                        <h2>Total Compra</h2>
-                                        <table class="">
-                                            <tbody>
-                                                <tr class="compra-subtotal">
-                                                    <th>Subtotal</th>
-                                                    <td><span class="importe">$5445</span></td>
-                                                </tr>
-                                                <tr class="envio ">
-                                                    <th>Envio gratuito</th>
-                                                </tr>
-                                                <tr class="order-total">
-                                                    <th>Total</th>
-                                                    <td>
-                                                        <strong><span class="importe">$5445</span></strong>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                              <a href="#" class="btn btn-outline-secondary btn-md mt-3">Pagar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                  <div class="col-md-8 col-sm-12 mt-2">
+                    <div class="botones-carrito">
+                      <input class="btn btn-outline-secondary btn-md mt-3" type="submit" value="Actualizar Compra" />
+                      <a href="index.html" class="btn btn-outline-secondary btn-md mt-3">Continuar comprando</a>
                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 mt-3">
+                    <div class="compra_total">
+                      <h2>Total Compra</h2>
+                      <table class="">
+                        <tbody>
+                          <tr class="compra-subtotal">
+                            <th>Subtotal</th>
+                            <td><span class="importe">$5445</span></td>
+                          </tr>
+                          <tr class="envio ">
+                            <th>Envio gratuito</th>
+                          </tr>
+                          <tr class="order-total">
+                            <th>Total</th>
+                            <td>
+                              <strong><span class="importe">$5445</span></strong>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <a href="#" class="btn btn-outline-secondary btn-md mt-3">Pagar</a>
+                    </div>
+                  </div>
                 </div>
+              </form>
             </div>
+          </div>
         </div>
-        <!-- FIN - inicio Carrito Cuerpo -->
-
-<object data="footer.html" width="100%" height="400px"></object>
-
+      </div>
     </div>
-    </div>
+    <!-- FIN - inicio Carrito Cuerpo -->
+  </section>
+  <iframe id="ifrafooter" src="footer.html" width="100%">  </iframe>
+  <!-- <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+</div> -->
 
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>

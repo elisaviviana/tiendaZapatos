@@ -5,23 +5,10 @@ footer {
 
 
 }
-.navbar-brand {
-  font-size: 30px;
-  color: #000;
-  font-weight: bold;
-
-}
-
-body {
-  font-family: 'Titillium Web', sans-serif;
-  /* width: 100%;
-  text-align: right;*/
-  }
-.formulario{
-  margin-bottom: 100px;
-}
-body #footer{
-  height: "400px";
+#ifrafooter{
+  height: 300px;
+  margin: 0;
+  border: 0;
 }
 
 #imagefooter {
@@ -29,4 +16,8 @@ text-align: center;
 width: "70%";
 background-color: #f1f1f1;
 
+}
+#redsocial{
+  width: 30px;
+  height: 30px;
 }

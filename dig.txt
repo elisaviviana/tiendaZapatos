@@ -1,0 +1,923 @@
+escribaniafernandez.com.ar. 3201 IN	MX	10 mx1.itcsa.net.
+escribaniafernandez.com.ar. 3201 IN	MX	20 mx2.itcsa.net.
+estudiotripoli.com.	3600	IN	MX	0 estudiotripoli-com.mail.protection.outlook.com.
+colegiosanluisgonzaga.edu.ar. 3600 IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+colegiosanluisgonzaga.edu.ar. 3600 IN	MX	10 ALT3.ASPMX.L.GOOGLE.COM.
+colegiosanluisgonzaga.edu.ar. 3600 IN	MX	1 ASPMX.L.GOOGLE.COM.
+ASPMX.l.google.com.	255	IN	A	64.233.186.26
+ASPMX.l.google.com.	255	IN	AAAA	2800:3f0:4003:c01::1a
+alt1.ASPMX.l.google.com. 255	IN	A	172.253.120.26
+alt1.ASPMX.l.google.com. 255	IN	AAAA	2a00:1450:400c:c01::1a
+alt3.ASPMX.l.google.com. 95	IN	A	209.85.233.26
+alt3.ASPMX.l.google.com. 95	IN	AAAA	2a00:1450:4010:c03::1a
+mymesa.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+mymesa.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+miguelsantos.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+miguelsantos.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+hotelprincess.com.ar.	14152	IN	MX	0 hotelprincess.com.ar.
+estudiomenghini.com.ar.	604552	IN	MX	20 mx2.itcsa.net.
+estudiomenghini.com.ar.	604552	IN	MX	10 mx1.itcsa.net.
+estudiocuervo.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+estudiocuervo.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+humanskill.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+humanskill.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+liderarmza.com.ar.	300	IN	MX	10 mail.liderarmza.com.ar.
+ingeniero-gassibe.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+ingeniero-gassibe.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+federicamartinez.com.ar. 604800	IN	MX	20 mx2.itcsa.net.
+federicamartinez.com.ar. 604800	IN	MX	10 mx1.itcsa.net.
+hotelcarollo.com.ar.	14400	IN	MX	0 mail.hotelcarollo.com.ar.
+vacasmedios.com.ar.	600	IN	MX	0 vacasmedios.com.ar.
+cirasino.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+cirasino.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+sdebe.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+sdebe.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+rrph.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+rrph.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+estudiopiattelli.com.ar. 604800	IN	MX	10 mx1.itcsa.net.
+estudiopiattelli.com.ar. 604800	IN	MX	20 mx2.itsa.net.
+losromeros.com.ar.	14400	IN	MX	0 losromeros.com.ar.
+hotelamericamza.com.ar.	14400	IN	MX	0 mx1.hostinger.com.ar.
+calvoasociados.com.ar.	14400	IN	MX	0 mail.calvoasociados.com.ar.
+calvoasociados.com.ar.	14400	IN	MX	20 mx1.calvoasociados.com.ar.
+bertolaso.com.ar.	604800	IN	MX	20 mx2.itsa.net.
+bertolaso.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+ochoas.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+ochoas.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+clinicafrancesa.com.ar.	14400	IN	MX	10 mx1.hostinger.com.ar.
+josemicheli.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+josemicheli.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+oaduanera.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+oaduanera.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+redbus-mendoza.com.ar.	604800	IN	MX	10 mail.redbus-mendoza.com.ar.
+redbus-mza.com.ar.	604800	IN	MX	10 mail.redbus-mza.com.ar.
+reigturismo.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+reigturismo.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+cruzatyasoc.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+cruzatyasoc.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+abogadosgal.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+abogadosgal.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+estudiofarruggia.com.ar. 3600	IN	MX	0 estudiofarruggia-com-ar.mail.protection.outlook.com.
+casaviejarestaurant.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+casaviejarestaurant.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+drogueriapolo.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+drogueriapolo.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+larositasa.com.ar.	600	IN	MX	0 larositasa.com.ar.
+cjhenriquez.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+cjhenriquez.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+ajrodriguez.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+ajrodriguez.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+911nuebus.com.ar.	604800	IN	MX	10 correo.911nuebus.com.ar.
+ficamen.com.ar.		604800	IN	MX	10 correo.ficamen.com.ar.
+estudioaduanerososa.com.ar. 600	IN	MX	0 estudioaduanerososa.com.ar.
+dominguezespuri.com.ar.	14400	IN	MX	0 mail.dominguezespuri.com.ar.
+dominguezespuri.com.ar.	14400	IN	MX	20 mx1.dominguezespuri.com.ar.
+lealgudinoabogados.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+lealgudinoabogados.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+bolsamza.com.ar.	604800	IN	MX	10 falcom.bolsamza.com.ar.
+aefipmendoza.com.ar.	14400	IN	MX	20 mx1.aefipmendoza.com.ar.
+aefipmendoza.com.ar.	14400	IN	MX	0 mail.aefipmendoza.com.ar.
+ccinmobiliariomza.com.ar. 3600	IN	MX	10 mail.ccinmobiliariomza.com.ar.
+bbcg.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+bbcg.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+palmaresopen.com.ar.	604800	IN	MX	10 mail.palmaresopen.com.ar.
+estudiojuan.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+estudiojuan.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+mecapanelli.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+mecapanelli.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+segurometalmza.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+segurometalmza.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+asistir.net.		604800	IN	MX	10 mail.asistir.net.
+aportaabogados.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+aportaabogados.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+cllano.com.ar.		86400	IN	MX	10 mail.cllano.com.ar.
+estudiovicchi-asoc.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+estudiovicchi-asoc.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+bordinmoyano.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+bordinmoyano.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+sudcontainers.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+sudcontainers.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+estudiopottgodoy.com.ar. 604800	IN	MX	10 mx1.itcsa.net.
+estudiopottgodoy.com.ar. 604800	IN	MX	20 mx2.itcsa.net.
+cuervoabogados.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+cuervoabogados.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+tgya.com.ar.		604800	IN	MX	10 mail.tgya.com.ar.
+tribunet.com.ar.	14400	IN	MX	0 mail.tribunet.com.ar.
+ciudaddemendoza.gob.ar.	3600	IN	MX	10 mail.ciudaddemendoza.gov.ar.
+ciudaddemendoza.gob.ar.	3600	IN	MX	20 mx2.itcsa.net.ar.
+estudioajv.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+estudioajv.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+silvao.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+silvao.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+estudioibanezrosaz.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+estudioibanezrosaz.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+proyeccionaduanera.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+proyeccionaduanera.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+igmar.com.ar.		604800	IN	MX	20 mx2.itcsa.net.
+igmar.com.ar.		604800	IN	MX	10 mx1.itcsa.net.
+legalmza.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+legalmza.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+seguridadzeus.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+seguridadzeus.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+gonzalezmoretti.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+gonzalezmoretti.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+lucianahogar.net.	604800	IN	MX	10 mx1.itcsa.net.
+lucianahogar.net.	604800	IN	MX	20 mx2.itcsa.net.
+hespanol.com.ar.	604800	IN	MX	10 mail1.hespanol.com.ar.
+hespanol.com.ar.	604800	IN	MX	5 zimbra.hespanol.com.ar.
+respaldoseguros.com.ar.	604800	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+respaldoseguros.com.ar.	604800	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+respaldoseguros.com.ar.	604800	IN	MX	1 ASPMX.L.GOOGLE.COM.
+respaldoseguros.com.ar.	604800	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+ASPMX.l.google.com.	241	IN	A	64.233.186.26
+ASPMX.l.google.com.	241	IN	AAAA	2800:3f0:4003:c01::1a
+alt1.ASPMX.l.google.com. 241	IN	A	172.253.120.26
+alt1.ASPMX.l.google.com. 241	IN	AAAA	2a00:1450:400c:c01::1a
+alt2.ASPMX.l.google.com. 241	IN	A	172.217.218.26
+alt2.ASPMX.l.google.com. 241	IN	AAAA	2a00:1450:4013:c08::1b
+depormaniamendoza.com.ar. 604800 IN	MX	20 mx2.itcsa.net.
+depormaniamendoza.com.ar. 604800 IN	MX	10 mx1.itcsa.net.
+tiemposervicios.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+tiemposervicios.com.ar.	604800	IN	MX	10 correo.tiemposervicios.com.ar.
+fecovita.com.		3600	IN	MX	0 fecovita-com.mail.protection.outlook.com.
+estanciamendoza.com.	604800	IN	MX	0 estanciamendoza-com.mail.protection.outlook.com.
+rb-propiedades.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+rb-propiedades.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+productosdeloeste.com.ar. 14400	IN	MX	20 mx1.productosdeloeste.com.ar.
+productosdeloeste.com.ar. 14400	IN	MX	0 mail.productosdeloeste.com.ar.
+cafarmen.org.ar.	14400	IN	MX	10 ALT3.ASPMX.L.GOOGLE.COM.
+cafarmen.org.ar.	14400	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+cafarmen.org.ar.	14400	IN	MX	1 ASPMX.L.GOOGLE.COM.
+cafarmen.org.ar.	14400	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+cafarmen.org.ar.	14400	IN	MX	10 ALT4.ASPMX.L.GOOGLE.COM.
+ASPMX.l.google.com.	240	IN	A	64.233.186.26
+ASPMX.l.google.com.	240	IN	AAAA	2800:3f0:4003:c01::1a
+alt1.ASPMX.l.google.com. 240	IN	A	172.253.120.26
+alt1.ASPMX.l.google.com. 240	IN	AAAA	2a00:1450:400c:c01::1a
+alt2.ASPMX.l.google.com. 240	IN	A	172.217.218.26
+alt2.ASPMX.l.google.com. 240	IN	AAAA	2a00:1450:4013:c08::1b
+alt3.ASPMX.l.google.com. 80	IN	A	209.85.233.26
+alt3.ASPMX.l.google.com. 80	IN	AAAA	2a00:1450:4010:c03::1a
+regionalcs.com.ar.	604800	IN	MX	20 mx2.itcsa.net.
+regionalcs.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+amphiba.com.		3600	IN	MX	0 amphiba-com.mail.protection.outlook.com.
+bigmediaargentina.com.ar. 3600	IN	MX	0 mx1.itcsa.net.
+bigmediaargentina.com.ar. 3600	IN	MX	1000 mx2.itcsa.net.
+inhgroup.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+inhgroup.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+estudiotermico.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+estudiotermico.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+sanlorenzoapart.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+sanlorenzoapart.com.ar.	86400	IN	MX	10 correo.sanlorenzoapart.com.ar.
+estudiopacini.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+estudiopacini.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+loffdeportes.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+loffdeportes.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+prestamossa.com.ar.	604800	IN	MX	10 mx1.itcsa.net.ar.
+prestamossa.com.ar.	604800	IN	MX	20 mx2.itcsa.net.ar.
+creditospersonales.com.ar. 604800 IN	MX	20 mx2.itcsa.net.ar.
+creditospersonales.com.ar. 604800 IN	MX	10 mx1.itcsa.net.ar.
+prestamospersonales.com.ar. 604800 IN	MX	10 mx1.itcsa.net.ar.
+prestamospersonales.com.ar. 604800 IN	MX	20 mx2.itcsa.net.ar.
+lenixpub.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+lenixpub.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+ciudaduniversitaria.gov.ar. 3600 IN	MX	10 mail.ciudaduniversitaria.gov.ar.
+ciudaduniversitaria.gov.ar. 3600 IN	MX	20 mx2.itcsa.net.ar.
+ciudaduniversitaria.gob.ar. 3600 IN	MX	10 mail.ciudaduniversitaria.gov.ar.
+ciudaduniversitaria.gob.ar. 3600 IN	MX	20 mx2.itcsa.net.ar.
+amsamutual.com.ar.	86400	IN	MX	10 mail.amsamutual.com.ar.
+orbetravel.com.ar.	14400	IN	MX	0 mail.orbetravel.com.ar.
+orbetravel.com.ar.	14400	IN	MX	20 mx1.orbetravel.com.ar.
+tierrafirmesa.com.ar.	14400	IN	MX	0 mail.tierrafirmesa.com.ar.
+spanpinatto.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+spanpinatto.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+operacionesimex.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+operacionesimex.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+acopiospalmirasa.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+acopiospalmirasa.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+mana.tur.ar.		86400	IN	MX	20 mx2.itcsa.net.
+mana.tur.ar.		86400	IN	MX	10 mx1.itcsa.net.
+pizzolon.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+pizzolon.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+mariomartin-arqs.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+mariomartin-arqs.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+estudiojorgelopez.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+estudiojorgelopez.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+dolphinsa.com.ar.	14400	IN	MX	0 mail.dolphinsa.com.ar.
+dolphinsa.com.ar.	14400	IN	MX	20 mx1.dolphinsa.com.ar.
+varasgonella.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+varasgonella.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+segurosmza.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+segurosmza.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+corazondemariamza.edu.ar. 3600	IN	MX	10 ALT3.ASPMX.L.GOOGLE.COM.
+corazondemariamza.edu.ar. 3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+corazondemariamza.edu.ar. 3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+corazondemariamza.edu.ar. 3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
+corazondemariamza.edu.ar. 3600	IN	MX	10 ALT4.ASPMX.L.GOOGLE.COM.
+ASPMX.l.google.com.	235	IN	A	64.233.186.26
+ASPMX.l.google.com.	235	IN	AAAA	2800:3f0:4003:c01::1a
+alt1.ASPMX.l.google.com. 235	IN	A	172.253.120.26
+alt1.ASPMX.l.google.com. 235	IN	AAAA	2a00:1450:400c:c01::1a
+alt2.ASPMX.l.google.com. 235	IN	A	172.217.218.26
+alt2.ASPMX.l.google.com. 235	IN	AAAA	2a00:1450:4013:c08::1b
+alt3.ASPMX.l.google.com. 75	IN	A	209.85.233.26
+alt3.ASPMX.l.google.com. 75	IN	AAAA	2a00:1450:4010:c03::1a
+irrhh.com.ar.		86400	IN	MX	10 server.irrhh.com.ar.
+clinicaflorentina.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+clinicaflorentina.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+leclubmusica.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+leclubmusica.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+rkars.com.ar.		600	IN	MX	0 rkars.com.ar.
+estudiorapacioli.com.ar. 3600	IN	MX	10 mx4.estudiorapacioli.com.ar.
+estudiorapacioli.com.ar. 3600	IN	MX	10 mx3.estudiorapacioli.com.ar.
+estudiorapacioli.com.ar. 3600	IN	MX	10 mx2.estudiorapacioli.com.ar.
+estudiorapacioli.com.ar. 3600	IN	MX	10 mx1.estudiorapacioli.com.ar.
+electec.com.ar.		3600	IN	MX	10 mx10.mailspamprotection.com.
+electec.com.ar.		3600	IN	MX	20 mx20.mailspamprotection.com.
+electec.com.ar.		3600	IN	MX	30 mx30.mailspamprotection.com.
+aries-mdz.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+aries-mdz.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+linealaluminio.com.ar.	14400	IN	MX	0 linealaluminio.com.ar.
+hjla.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+hjla.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+linareshilgerabogados.com. 86400 IN	MX	10 mx1.itcsa.net.
+linareshilgerabogados.com. 86400 IN	MX	20 mx2.itcsa.net.
+enobo.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+enobo.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+enoprint.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+enoprint.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+seres-salud.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+seres-salud.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+nsaseguros.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+nsaseguros.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+ccemza.com.ar.		14400	IN	MX	0 mail.ccemza.com.ar.
+ccemza.com.ar.		14400	IN	MX	20 mx1.ccemza.com.ar.
+gestionyservicios.com.ar. 14400	IN	MX	0 mail.gestionyservicios.com.ar.
+globaltradesrl.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+globaltradesrl.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+ryrestudio.com.ar.	14400	IN	MX	0 ryrestudio.com.ar.
+businesscooperation.com.ar. 86400 IN	MX	10 falcom.businesscooperation.com.ar.
+epreweb.com.ar.		3600	IN	MX	10 mail.epreweb.com.ar.
+fscomexmdz.com.ar.	600	IN	MX	0 fscomexmdz.com.ar.
+intercorsrl.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+intercorsrl.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+dipolo.com.ar.		86400	IN	MX	30 relay.dipolo.com.ar.
+dipolo.com.ar.		86400	IN	MX	10 correo.dipolo.com.ar.
+21kmmendoza.gob.ar.	86400	IN	MX	10 mail.21kmmendoza.gob.ar.
+dlucas.com.ar.		300	IN	MX	1 dlucas.com.ar.
+merproar.com.ar.	86400	IN	MX	10 mail.merproar.com.ar.
+bodegacorreas.com.ar.	3600	IN	MX	10 mx1.itcsa.net.
+bodegacorreas.com.ar.	3600	IN	MX	20 mx2.itcsa.net.
+kaikenpremier.com.	14400	IN	MX	10 aspmx3.googlemail.com.
+kaikenpremier.com.	14400	IN	MX	5 alt2.aspmx.l.google.com.
+kaikenpremier.com.	14400	IN	MX	5 alt1.aspmx.l.google.com.
+kaikenpremier.com.	14400	IN	MX	10 aspmx2.googlemail.com.
+kaikenpremier.com.	14400	IN	MX	1 aspmx.l.google.com.
+ASPMX.l.google.com.	226	IN	A	64.233.186.26
+ASPMX.l.google.com.	226	IN	AAAA	2800:3f0:4003:c01::1a
+alt1.ASPMX.l.google.com. 226	IN	A	172.253.120.26
+alt1.ASPMX.l.google.com. 226	IN	AAAA	2a00:1450:400c:c01::1a
+alt2.ASPMX.l.google.com. 226	IN	A	172.217.218.26
+alt2.ASPMX.l.google.com. 226	IN	AAAA	2a00:1450:4013:c08::1b
+renovacionpetrolera.com.ar. 3600 IN	MX	10 mail.renovacionpetrolera.com.ar.
+regencycasinos.com.	86400	IN	MX	5 mail.regencycasinos.com.
+regencycasinos.com.	86400	IN	MX	10 mail2.regencycasinos.com.
+digla.com.ar.		14400	IN	MX	0 mail.digla.com.ar.
+digla.com.ar.		14400	IN	MX	20 mx1.digla.com.ar.
+paleroimpresores.com.ar. 14400	IN	MX	0 mail.paleroimpresores.com.ar.
+paleroimpresores.com.ar. 14400	IN	MX	20 mx1.paleroimpresores.com.ar.
+codisagro.com.ar.	3600	IN	MX	10 mail.codisagro.com.ar.
+resipelsrl.com.ar.	14400	IN	MX	0 mail.resipelsrl.com.ar.
+fussionsa.com.ar.	3600	IN	MX	10 mx4.fussionsa.com.ar.
+fussionsa.com.ar.	3600	IN	MX	10 mx3.fussionsa.com.ar.
+fussionsa.com.ar.	3600	IN	MX	10 mx2.fussionsa.com.ar.
+fussionsa.com.ar.	3600	IN	MX	10 mx1.fussionsa.com.ar.
+comexarshippingsa.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+comexarshippingsa.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+reposterisima.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+reposterisima.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+franquiciasdeloeste.com.ar. 86400 IN	MX	10 mx1.itcsa.net.
+franquiciasdeloeste.com.ar. 86400 IN	MX	20 mx2.itcsa.net.
+biomolmza.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+biomolmza.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+abc1distribuciones.com.ar. 86400 IN	MX	10 mx1.itcsa.net.
+abc1distribuciones.com.ar. 86400 IN	MX	20 mx2.itcsa.net.
+transmetalcoop.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+transmetalcoop.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+estudioverdaguer.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+estudioverdaguer.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+netcompu.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+netcompu.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+empresastahan.com.	600	IN	MX	0 empresastahan.com.
+tersac.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+tersac.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+sergiorocamora.com.ar.	14400	IN	MX	0 mail.sergiorocamora.com.ar.
+cdguaymallen.gob.ar.	86400	IN	MX	10 mail.cdguaymallen.gob.ar.
+simcya.com.ar.		14400	IN	MX	10 mx1.hostinger.com.ar.
+gonzalezb.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+gonzalezb.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+estudioterranova.com.ar. 10800	IN	MX	0 estudioterranova-com-ar.mail.protection.outlook.com.
+gmzmuebles.com.ar.	14400	IN	MX	5 mx1.gmzmuebles.com.ar.
+gmzmuebles.com.ar.	14400	IN	MX	0 mail.gmzmuebles.com.ar.
+saglimited.com.		86400	IN	MX	10 mail.saglimited.com.
+groupsouthatlantic.com.	86400	IN	MX	10 mail.groupsouthatlantic.com.
+lazidanelia.com.	86400	IN	MX	10 mail.lazidanelia.com.
+exparen.com.		86400	IN	MX	10 mail.exparen.com.
+interterra.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+interterra.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+munizconsultores.com.ar. 86400	IN	MX	10 mx1.itcsa.net.
+munizconsultores.com.ar. 86400	IN	MX	20 mx2.itcsa.net.
+giasamza.com.		86400	IN	MX	10 mx1.itcsa.net.
+giasamza.com.		86400	IN	MX	20 mx2.itcsa.net.
+rosalba.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+rosalba.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+tgbcargas.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+tgbcargas.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+oudot.com.ar.		14400	IN	MX	0 mail.oudot.com.ar.
+oudot.com.ar.		14400	IN	MX	20 mx1.oudot.com.ar.
+coussirat.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+coussirat.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+ofi-max.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+ofi-max.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+ayfra.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+ayfra.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+itcplay.net.ar.		86400	IN	MX	10 mx1.itcsa.net.
+itcplay.net.ar.		86400	IN	MX	20 mx2.itcsa.net.
+jc-estudio.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+jc-estudio.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+pithod.com.ar.		86400	IN	MX	10 mx1.itcsa.net.
+pithod.com.ar.		86400	IN	MX	20 mx2.itcsa.net.
+mrpyasociados.com.ar.	14400	IN	MX	10 mail.mrpyasociados.com.ar.
+sansonigrzona.com.ar.	86400	IN	MX	20 mx2.itcsa.net.
+sansonigrzona.com.ar.	86400	IN	MX	10 mx1.itcsa.net.
+geoworks.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+geoworks.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+sunplazamendoza.com.	3600	IN	MX	5 mail.sunplazamendoza.com.
+sunplazamendoza.com.	3600	IN	MX	10 mail2.sunplazamendoza.com.
+enisa.com.ar.		172800	IN	MX	20 mx2.itcsa.net.
+enisa.com.ar.		172800	IN	MX	10 mx1.itcsa.net.
+cepapp.com.ar.		172800	IN	MX	10 mail.cepapp.com.ar.
+kioscosyes.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+kioscosyes.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+rctransportes.com.ar.	347	IN	MX	10 mail.rctransportes.com.ar.
+etiquetasdevino.com.ar.	172800	IN	MX	10 mail.etiquetasdevino.com.ar.
+netball.com.ar.		172800	IN	MX	20 mx2.itcsa.net.
+netball.com.ar.		172800	IN	MX	10 mx1.itcsa.net.
+in-fraestructura.com.ar. 172800	IN	MX	10 mx1.itcsa.net.
+in-fraestructura.com.ar. 172800	IN	MX	20 mx2.itcsa.net.
+mymargentina.com.	172800	IN	MX	10 mx1.itcsa.net.
+mymargentina.com.	172800	IN	MX	20 mx2.itcsa.net.
+mosso-oc.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+mosso-oc.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+pronesurargentina.com.ar. 172800 IN	MX	10 mx1.itcsa.net.
+pronesurargentina.com.ar. 172800 IN	MX	20 mx2.itcsa.net.
+o365.fecovita.com.	3600	IN	MX	0 o365-fecovita-com.mail.protection.outlook.com.
+morelan.com.ar.		172800	IN	MX	20 mx2.itcsa.net.
+morelan.com.ar.		172800	IN	MX	10 mx1.itcsa.net.
+hospitalcentral.com.ar.	604800	IN	MX	20 mx2.itsa.net.
+hospitalcentral.com.ar.	604800	IN	MX	10 mx1.itcsa.net.
+mundosurnatural.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+mundosurnatural.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+riga.com.ar.		172800	IN	MX	20 mx2.itcsa.net.
+riga.com.ar.		172800	IN	MX	10 mx1.itcsa.net.
+thebridgesrl.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+thebridgesrl.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+dhlmendoza.com.ar.	172800	IN	MX	10 mx1.itcsa.net.
+dhlmendoza.com.ar.	172800	IN	MX	20 mx2.itcsa.net.
+estudiotripoli.com.	3556	IN	NS	choique.itcsa.net.ar.
+estudiotripoli.com.	3556	IN	NS	tomero.itcsa.net.ar.
+colegiosanluisgonzaga.edu.ar. 3557 IN	NS	dns3.pointhq.com.
+colegiosanluisgonzaga.edu.ar. 3557 IN	NS	dns1.pointhq.com.
+mymesa.com.ar.		3558	IN	NS	choique.itcsa.net.ar.
+mymesa.com.ar.		3558	IN	NS	ns3.itcsa.net.
+miguelsantos.com.ar.	3558	IN	NS	choique.itcsa.net.ar.
+miguelsantos.com.ar.	3558	IN	NS	ns3.itcsa.net.
+hotelprincess.com.ar.	3223	IN	NS	ns1.towebs.com.
+hotelprincess.com.ar.	3223	IN	NS	ns2.towebs.com.
+hotelprincess.com.ar.	3223	IN	NS	ns4.towebs.com.
+hotelprincess.com.ar.	3223	IN	NS	ns3.towebs.com.
+estudiomenghini.com.ar.	3223	IN	NS	choique.itcsa.net.ar.
+estudiomenghini.com.ar.	3223	IN	NS	ns3.itcsa.net.
+estudiocuervo.com.ar.	3558	IN	NS	ns3.itcsa.net.
+estudiocuervo.com.ar.	3558	IN	NS	choique.itcsa.net.ar.
+humanskill.com.ar.	3558	IN	NS	choique.itcsa.net.ar.
+humanskill.com.ar.	3558	IN	NS	ns3.itcsa.net.
+liderarmza.com.ar.	3558	IN	NS	ns-622.awsdns-13.net.
+liderarmza.com.ar.	3558	IN	NS	ns-1283.awsdns-32.org.
+liderarmza.com.ar.	3558	IN	NS	ns-2012.awsdns-59.co.uk.
+liderarmza.com.ar.	3558	IN	NS	ns-152.awsdns-19.com.
+ingeniero-gassibe.com.ar. 3600	IN	NS	choique.itcsa.net.ar.
+ingeniero-gassibe.com.ar. 3600	IN	NS	ns3.itcsa.net.
+federicamartinez.com.ar. 3600	IN	NS	ns3.itcsa.net.
+federicamartinez.com.ar. 3600	IN	NS	choique.itcsa.net.ar.
+hotelcarollo.com.ar.	3559	IN	NS	ns4.towebs.com.
+hotelcarollo.com.ar.	3559	IN	NS	ns2.towebs.com.
+hotelcarollo.com.ar.	3559	IN	NS	ns1.towebs.com.
+hotelcarollo.com.ar.	3559	IN	NS	ns3.towebs.com.
+vacasmedios.com.ar.	559	IN	NS	ns9.baehost.com.
+vacasmedios.com.ar.	559	IN	NS	ns10.baehost.com.
+vacasmedios.com.ar.	559	IN	NS	ns11.baehost.com.
+cirasino.com.ar.	3559	IN	NS	ns3.itcsa.net.
+cirasino.com.ar.	3559	IN	NS	choique.itcsa.net.ar.
+sdebe.com.ar.		3559	IN	NS	choique.itcsa.net.ar.
+sdebe.com.ar.		3559	IN	NS	ns3.itcsa.net.
+rrph.com.ar.		3559	IN	NS	ns3.itcsa.net.
+rrph.com.ar.		3559	IN	NS	choique.itcsa.net.ar.
+estudiopiattelli.com.ar. 3559	IN	NS	ns3.itcsa.net.
+estudiopiattelli.com.ar. 3559	IN	NS	choique.itcsa.net.ar.
+losromeros.com.ar.	3559	IN	NS	dns2.servidoraweb.net.
+losromeros.com.ar.	3559	IN	NS	dns1.servidoraweb.net.
+hotelamericamza.com.ar.	3559	IN	NS	ns13.dns-principal-2.com.
+hotelamericamza.com.ar.	3559	IN	NS	ns14.dns-principal-2.com.
+calvoasociados.com.ar.	3560	IN	NS	ns3.hostmar.com.
+calvoasociados.com.ar.	3560	IN	NS	ns4.hostmar.com.
+bertolaso.com.ar.	3560	IN	NS	ns3.itcsa.net.
+bertolaso.com.ar.	3560	IN	NS	choique.itcsa.net.ar.
+ochoas.com.ar.		3561	IN	NS	choique.itcsa.net.ar.
+ochoas.com.ar.		3561	IN	NS	ns3.itcsa.net.
+clinicafrancesa.com.ar.	3561	IN	NS	ns3.hostinger-ar.com.
+clinicafrancesa.com.ar.	3561	IN	NS	ns1.hostinger-ar.com.
+clinicafrancesa.com.ar.	3561	IN	NS	ns4.hostinger-ar.com.
+clinicafrancesa.com.ar.	3561	IN	NS	ns2.hostinger-ar.com.
+josemicheli.com.ar.	3561	IN	NS	ns3.itcsa.net.
+josemicheli.com.ar.	3561	IN	NS	choique.itcsa.net.ar.
+oaduanera.com.ar.	3561	IN	NS	ns3.itcsa.net.
+oaduanera.com.ar.	3561	IN	NS	choique.itcsa.net.ar.
+redbus-mendoza.com.ar.	3561	IN	NS	choique.itcsa.net.ar.
+redbus-mendoza.com.ar.	3561	IN	NS	ns3.itcsa.net.
+redbus-mza.com.ar.	3562	IN	NS	choique.itcsa.net.ar.
+redbus-mza.com.ar.	3562	IN	NS	ns3.itcsa.net.
+bodegasdeargentinaac.com. 0	IN	NS	dns5.name-services.com.
+bodegasdeargentinaac.com. 0	IN	NS	dns1.name-services.com.
+bodegasdeargentinaac.com. 0	IN	NS	dns3.name-services.com.
+bodegasdeargentinaac.com. 0	IN	NS	dns4.name-services.com.
+bodegasdeargentinaac.com. 0	IN	NS	dns2.name-services.com.
+reigturismo.com.ar.	3562	IN	NS	choique.itcsa.net.ar.
+reigturismo.com.ar.	3562	IN	NS	ns3.itcsa.net.
+cruzatyasoc.com.ar.	3562	IN	NS	ns3.itcsa.net.
+cruzatyasoc.com.ar.	3562	IN	NS	choique.itcsa.net.ar.
+abogadosgal.com.ar.	3562	IN	NS	ns3.itcsa.net.
+abogadosgal.com.ar.	3562	IN	NS	choique.itcsa.net.ar.
+estudiofarruggia.com.ar. 3562	IN	NS	choique.itcsa.net.ar.
+estudiofarruggia.com.ar. 3562	IN	NS	ns3.itcsa.net.
+casaviejarestaurant.com.ar. 3600 IN	NS	ns3.itcsa.net.
+casaviejarestaurant.com.ar. 3600 IN	NS	choique.itcsa.net.ar.
+drogueriapolo.com.ar.	3562	IN	NS	ns3.itcsa.net.
+drogueriapolo.com.ar.	3562	IN	NS	choique.itcsa.net.ar.
+larositasa.com.ar.	509	IN	NS	ns10.baehost.com.
+larositasa.com.ar.	509	IN	NS	ns11.baehost.com.
+larositasa.com.ar.	509	IN	NS	ns9.baehost.com.
+cjhenriquez.com.ar.	3563	IN	NS	choique.itcsa.net.ar.
+cjhenriquez.com.ar.	3563	IN	NS	ns3.itcsa.net.
+ajrodriguez.com.ar.	3563	IN	NS	choique.itcsa.net.ar.
+ajrodriguez.com.ar.	3563	IN	NS	ns3.itcsa.net.
+911nuebus.com.ar.	3564	IN	NS	ns3.itcsa.net.
+911nuebus.com.ar.	3564	IN	NS	choique.itcsa.net.ar.
+ficamen.com.ar.		3564	IN	NS	ns3.itcsa.net.
+ficamen.com.ar.		3564	IN	NS	choique.itcsa.net.ar.
+estudioaduanerososa.com.ar. 600	IN	NS	ns9.baehost.com.
+estudioaduanerososa.com.ar. 600	IN	NS	ns10.baehost.com.
+estudioaduanerososa.com.ar. 600	IN	NS	ns11.baehost.com.
+dominguezespuri.com.ar.	3563	IN	NS	ns3.hostmar.com.
+dominguezespuri.com.ar.	3563	IN	NS	ns4.hostmar.com.
+lealgudinoabogados.com.ar. 3564	IN	NS	ns3.itcsa.net.
+lealgudinoabogados.com.ar. 3564	IN	NS	choique.itcsa.net.ar.
+bolsamza.com.ar.	3565	IN	NS	ns3.itcsa.net.
+bolsamza.com.ar.	3565	IN	NS	choique.itcsa.net.ar.
+aefipmendoza.com.ar.	3565	IN	NS	ns3.hostmar.com.
+aefipmendoza.com.ar.	3565	IN	NS	ns4.hostmar.com.
+ccinmobiliariomza.com.ar. 3600	IN	NS	dns2.supercanal.com.ar.
+ccinmobiliariomza.com.ar. 3600	IN	NS	dns1.supercanal.com.ar.
+bbcg.com.ar.		3565	IN	NS	ns3.itcsa.net.
+bbcg.com.ar.		3565	IN	NS	choique.itcsa.net.ar.
+palmaresopen.com.ar.	3565	IN	NS	ns3.itcsa.net.
+palmaresopen.com.ar.	3565	IN	NS	choique.itcsa.net.ar.
+estudiojuan.com.ar.	3600	IN	NS	ns3.itcsa.net.
+estudiojuan.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+mecapanelli.com.ar.	3566	IN	NS	ns3.itcsa.net.
+mecapanelli.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+segurometalmza.com.ar.	3566	IN	NS	ns3.itcsa.net.
+segurometalmza.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+asistir.net.		172766	IN	NS	ns3.itcsa.net.
+asistir.net.		172766	IN	NS	choique.itcsa.net.ar.
+aportaabogados.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+aportaabogados.com.ar.	3566	IN	NS	ns3.itcsa.net.
+cllano.com.ar.		3600	IN	NS	ns2.allytech.com.
+cllano.com.ar.		3600	IN	NS	ns1.allytech.com.
+estudiovicchi-asoc.com.ar. 3566	IN	NS	choique.itcsa.net.ar.
+estudiovicchi-asoc.com.ar. 3566	IN	NS	ns3.itcsa.net.
+bordinmoyano.com.ar.	3566	IN	NS	ns3.itcsa.net.
+bordinmoyano.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+sudcontainers.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+sudcontainers.com.ar.	3566	IN	NS	ns3.itcsa.net.
+estudiopottgodoy.com.ar. 3566	IN	NS	choique.itcsa.net.ar.
+estudiopottgodoy.com.ar. 3566	IN	NS	ns3.itcsa.net.
+cuervoabogados.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+cuervoabogados.com.ar.	3566	IN	NS	ns3.itcsa.net.
+tgya.com.ar.		3566	IN	NS	choique.itcsa.net.ar.
+tgya.com.ar.		3566	IN	NS	ns3.itcsa.net.
+tribunet.com.ar.	3600	IN	NS	ns10.hostmar.com.
+tribunet.com.ar.	3600	IN	NS	ns9.hostmar.com.
+ciudaddemendoza.gob.ar.	3221	IN	NS	ns1.gblx.net.ar.
+ciudaddemendoza.gob.ar.	3221	IN	NS	ns2.gblx.net.ar.
+estudioajv.com.ar.	3567	IN	NS	choique.itcsa.net.ar.
+estudioajv.com.ar.	3567	IN	NS	ns3.itcsa.net.
+silvao.com.ar.		3567	IN	NS	ns3.itcsa.net.
+silvao.com.ar.		3567	IN	NS	choique.itcsa.net.ar.
+estudioibanezrosaz.com.ar. 3566	IN	NS	choique.itcsa.net.ar.
+estudioibanezrosaz.com.ar. 3566	IN	NS	ns3.itcsa.net.
+proyeccionaduanera.com.ar. 3566	IN	NS	ns3.itcsa.net.
+proyeccionaduanera.com.ar. 3566	IN	NS	choique.itcsa.net.ar.
+igmar.com.ar.		3566	IN	NS	choique.itcsa.net.ar.
+igmar.com.ar.		3566	IN	NS	ns3.itcsa.net.
+legalmza.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+legalmza.com.ar.	3600	IN	NS	ns3.itcsa.net.
+seguridadzeus.com.ar.	3566	IN	NS	ns3.itcsa.net.
+seguridadzeus.com.ar.	3566	IN	NS	choique.itcsa.net.ar.
+gonzalezmoretti.com.ar.	3600	IN	NS	ns3.itcsa.net.
+gonzalezmoretti.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+lucianahogar.net.	172767	IN	NS	choique.itcsa.net.ar.
+lucianahogar.net.	172767	IN	NS	ns3.itcsa.net.
+hespanol.com.ar.	3567	IN	NS	choique.itcsa.net.ar.
+hespanol.com.ar.	3567	IN	NS	ns3.itcsa.net.
+respaldoseguros.com.ar.	3567	IN	NS	ns3.itcsa.net.
+respaldoseguros.com.ar.	3567	IN	NS	choique.itcsa.net.ar.
+depormaniamendoza.com.ar. 3567	IN	NS	ns3.itcsa.net.
+depormaniamendoza.com.ar. 3567	IN	NS	choique.itcsa.net.ar.
+tiemposervicios.com.ar.	3600	IN	NS	ns3.itcsa.net.
+tiemposervicios.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+fecovita.com.		3568	IN	NS	choique.itcsa.net.ar.
+fecovita.com.		3568	IN	NS	ns3.itcsa.net.
+estanciamendoza.com.	172768	IN	NS	ns3.itcsa.net.
+estanciamendoza.com.	172768	IN	NS	choique.itcsa.net.ar.
+rb-propiedades.com.ar.	3568	IN	NS	choique.itcsa.net.ar.
+rb-propiedades.com.ar.	3568	IN	NS	ns3.itcsa.net.
+productosdeloeste.com.ar. 3532	IN	NS	ns3.hostmar.com.
+productosdeloeste.com.ar. 3532	IN	NS	ns4.hostmar.com.
+cafarmen.org.ar.	3567	IN	NS	ns4.hostmar.com.
+cafarmen.org.ar.	3567	IN	NS	ns3.hostmar.com.
+regionalcs.com.ar.	3567	IN	NS	ns3.itcsa.net.
+regionalcs.com.ar.	3567	IN	NS	choique.itcsa.net.ar.
+amphiba.com.		3568	IN	NS	pdns10.domaincontrol.com.
+amphiba.com.		3568	IN	NS	pdns09.domaincontrol.com.
+bigmediaargentina.com.ar. 3568	IN	NS	ns1.elalmacen.wnpower.host.
+bigmediaargentina.com.ar. 3568	IN	NS	ns2.elalmacen.wnpower.host.
+inhgroup.com.ar.	3568	IN	NS	ns3.itcsa.net.
+inhgroup.com.ar.	3568	IN	NS	choique.itcsa.net.ar.
+estudiotermico.com.ar.	3569	IN	NS	ns3.itcsa.net.
+estudiotermico.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+sanlorenzoapart.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+sanlorenzoapart.com.ar.	3569	IN	NS	ns3.itcsa.net.
+estudiopacini.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+estudiopacini.com.ar.	3569	IN	NS	ns3.itcsa.net.
+loffdeportes.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+loffdeportes.com.ar.	3569	IN	NS	ns3.itcsa.net.
+prestamossa.com.ar.	3569	IN	NS	ns3.itcsa.net.
+prestamossa.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+creditospersonales.com.ar. 3569	IN	NS	ns3.itcsa.net.
+creditospersonales.com.ar. 3569	IN	NS	choique.itcsa.net.ar.
+prestamospersonales.com.ar. 3569 IN	NS	choique.itcsa.net.ar.
+prestamospersonales.com.ar. 3569 IN	NS	ns3.itcsa.net.
+lenixpub.com.ar.	3569	IN	NS	ns3.itcsa.net.
+lenixpub.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+ciudaduniversitaria.gov.ar. 3600 IN	NS	ns2.gblx.net.ar.
+ciudaduniversitaria.gov.ar. 3600 IN	NS	ns1.gblx.net.ar.
+ciudaduniversitaria.gob.ar. 3568 IN	NS	ns2.gblx.net.ar.
+ciudaduniversitaria.gob.ar. 3568 IN	NS	ns1.gblx.net.ar.
+amsamutual.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+amsamutual.com.ar.	3600	IN	NS	ns3.itcsa.net.
+orbetravel.com.ar.	3569	IN	NS	ns4.hostmar.com.
+orbetravel.com.ar.	3569	IN	NS	ns3.hostmar.com.
+tierrafirmesa.com.ar.	3569	IN	NS	ns1.nexusii.com.ar.
+tierrafirmesa.com.ar.	3569	IN	NS	ns2.nexusii.com.ar.
+spanpinatto.com.ar.	3569	IN	NS	ns3.itcsa.net.
+spanpinatto.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+mendozamaravillosa.com.	86400	IN	NS	brit.ns.cloudflare.com.
+mendozamaravillosa.com.	86400	IN	NS	kurt.ns.cloudflare.com.
+operacionesimex.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+operacionesimex.com.ar.	3569	IN	NS	ns3.itcsa.net.
+acopiospalmirasa.com.ar. 3600	IN	NS	ns3.itcsa.net.
+acopiospalmirasa.com.ar. 3600	IN	NS	choique.itcsa.net.ar.
+mana.tur.ar.		3569	IN	NS	choique.itcsa.net.ar.
+mana.tur.ar.		3569	IN	NS	ns3.itcsa.net.
+pizzolon.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+pizzolon.com.ar.	3569	IN	NS	ns3.itcsa.net.
+mariomartin-arqs.com.ar. 3569	IN	NS	choique.itcsa.net.ar.
+mariomartin-arqs.com.ar. 3569	IN	NS	ns3.itcsa.net.
+estudiojorgelopez.com.ar. 3569	IN	NS	choique.itcsa.net.ar.
+estudiojorgelopez.com.ar. 3569	IN	NS	ns3.itcsa.net.
+dolphinsa.com.ar.	3600	IN	NS	ns3.hostmar.com.
+dolphinsa.com.ar.	3600	IN	NS	ns4.hostmar.com.
+resonanciatesla.com.ar.	3569	IN	NS	ns3.itcsa.net.
+resonanciatesla.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+varasgonella.com.ar.	3569	IN	NS	ns3.itcsa.net.
+varasgonella.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+segurosmza.com.ar.	3569	IN	NS	choique.itcsa.net.ar.
+segurosmza.com.ar.	3569	IN	NS	ns3.itcsa.net.
+corazondemariamza.edu.ar. 3570	IN	NS	ns2.godns.net.
+corazondemariamza.edu.ar. 3570	IN	NS	ns1.godns.net.
+corazondemariamza.edu.ar. 3570	IN	NS	ns4.godns.net.
+corazondemariamza.edu.ar. 3570	IN	NS	ns5.godns.net.
+corazondemariamza.edu.ar. 3570	IN	NS	ns3.godns.net.
+irrhh.com.ar.		3570	IN	NS	ns3.itcsa.net.
+irrhh.com.ar.		3570	IN	NS	choique.itcsa.net.ar.
+clinicaflorentina.com.ar. 3570	IN	NS	choique.itcsa.net.ar.
+clinicaflorentina.com.ar. 3570	IN	NS	ns3.itcsa.net.
+leclubmusica.com.ar.	3570	IN	NS	ns3.itcsa.net.
+leclubmusica.com.ar.	3570	IN	NS	choique.itcsa.net.ar.
+rkars.com.ar.		570	IN	NS	ns11.baehost.com.
+rkars.com.ar.		570	IN	NS	ns9.baehost.com.
+rkars.com.ar.		570	IN	NS	ns10.baehost.com.
+estudiorapacioli.com.ar. 3570	IN	NS	ns2.godns.net.
+estudiorapacioli.com.ar. 3570	IN	NS	ns1.godns.net.
+estudiorapacioli.com.ar. 3570	IN	NS	ns4.godns.net.
+estudiorapacioli.com.ar. 3570	IN	NS	ns3.godns.net.
+estudiorapacioli.com.ar. 3570	IN	NS	ns5.godns.net.
+electec.com.ar.		3570	IN	NS	ns1.us135.siteground.us.
+electec.com.ar.		3570	IN	NS	ns2.us135.siteground.us.
+aries-mdz.com.ar.	3600	IN	NS	choique.itcsa.net.ar.
+aries-mdz.com.ar.	3600	IN	NS	ns3.itcsa.net.
+linealaluminio.com.ar.	3600	IN	NS	ns89.websitewelcome.com.
+linealaluminio.com.ar.	3600	IN	NS	ns90.websitewelcome.com.
+hjla.com.ar.		3573	IN	NS	ns3.itcsa.net.
+hjla.com.ar.		3573	IN	NS	choique.itcsa.net.ar.
+linareshilgerabogados.com. 86374 IN	NS	choique.itcsa.net.ar.
+linareshilgerabogados.com. 86374 IN	NS	ns3.itcsa.net.
+enobo.com.ar.		3574	IN	NS	choique.itcsa.net.ar.
+enobo.com.ar.		3574	IN	NS	ns3.itcsa.net.
+enoprint.com.ar.	3574	IN	NS	choique.itcsa.net.ar.
+enoprint.com.ar.	3574	IN	NS	ns3.itcsa.net.
+seres-salud.com.ar.	3574	IN	NS	ns3.itcsa.net.
+seres-salud.com.ar.	3574	IN	NS	choique.itcsa.net.ar.
+nsaseguros.com.ar.	3574	IN	NS	choique.itcsa.net.ar.
+nsaseguros.com.ar.	3574	IN	NS	ns3.itcsa.net.
+ccemza.com.ar.		3600	IN	NS	ns3.hostmar.com.
+ccemza.com.ar.		3600	IN	NS	ns4.hostmar.com.
+gestionyservicios.com.ar. 3574	IN	NS	ns10.hostmar.com.
+gestionyservicios.com.ar. 3574	IN	NS	ns9.hostmar.com.
+globaltradesrl.com.ar.	3575	IN	NS	ns3.itcsa.net.
+globaltradesrl.com.ar.	3575	IN	NS	choique.itcsa.net.ar.
+ryrestudio.com.ar.	3599	IN	NS	ns36.tudns35.info.
+ryrestudio.com.ar.	3599	IN	NS	ns35.tudns35.info.
+businesscooperation.com.ar. 3574 IN	NS	ns3.itcsa.net.
+businesscooperation.com.ar. 3574 IN	NS	choique.itcsa.net.ar.
+epreweb.com.ar.		3574	IN	NS	dns1.supercanal.com.ar.
+epreweb.com.ar.		3574	IN	NS	dns2.supercanal.com.ar.
+fscomexmdz.com.ar.	574	IN	NS	ns9.baehost.com.
+fscomexmdz.com.ar.	574	IN	NS	ns11.baehost.com.
+fscomexmdz.com.ar.	574	IN	NS	ns10.baehost.com.
+intercorsrl.com.ar.	3574	IN	NS	ns3.itcsa.net.
+intercorsrl.com.ar.	3574	IN	NS	choique.itcsa.net.ar.
+dipolo.com.ar.		3574	IN	NS	ns3.itcsa.net.
+dipolo.com.ar.		3574	IN	NS	choique.itcsa.net.ar.
+21kmmendoza.gob.ar.	3574	IN	NS	choique.itcsa.net.ar.
+21kmmendoza.gob.ar.	3574	IN	NS	ns3.itcsa.net.
+dlucas.com.ar.		3574	IN	NS	ns-77.awsdns-09.com.
+dlucas.com.ar.		3574	IN	NS	ns-1503.awsdns-59.org.
+dlucas.com.ar.		3574	IN	NS	ns-893.awsdns-47.net.
+dlucas.com.ar.		3574	IN	NS	ns-1888.awsdns-44.co.uk.
+merproar.com.ar.	3575	IN	NS	choique.itcsa.net.ar.
+merproar.com.ar.	3575	IN	NS	ns3.itcsa.net.
+bodegacorreas.com.ar.	600	IN	NS	ns1.outdns.net.
+bodegacorreas.com.ar.	600	IN	NS	ns2.outdns.net.
+epreactivo.org.		3600	IN	NS	ns36.domaincontrol.com.
+epreactivo.org.		3600	IN	NS	ns35.domaincontrol.com.
+kaikenpremier.com.	86377	IN	NS	ns3.iia.cl.
+kaikenpremier.com.	86377	IN	NS	ns4.iia.cl.
+renovacionpetrolera.com.ar. 3577 IN	NS	elliot.ns.cloudflare.com.
+renovacionpetrolera.com.ar. 3577 IN	NS	demi.ns.cloudflare.com.
+regencycasinos.com.	86378	IN	NS	ns3.itcsa.net.
+regencycasinos.com.	86378	IN	NS	choique.itcsa.net.ar.
+digla.com.ar.		3578	IN	NS	ns4.hostmar.com.
+digla.com.ar.		3578	IN	NS	ns3.hostmar.com.
+paleroimpresores.com.ar. 3578	IN	NS	ns3.hostmar.com.
+paleroimpresores.com.ar. 3578	IN	NS	ns4.hostmar.com.
+codisagro.com.ar.	3578	IN	NS	dns2.supercanal.com.ar.
+codisagro.com.ar.	3578	IN	NS	dns1.supercanal.com.ar.
+resipelsrl.com.ar.	3599	IN	NS	ns1.redurbana-si.com.ar.
+resipelsrl.com.ar.	3599	IN	NS	ns2.redurbana-si.com.ar.
+fussionsa.com.ar.	3600	IN	NS	ns5.godns.net.
+fussionsa.com.ar.	3600	IN	NS	ns2.godns.net.
+fussionsa.com.ar.	3600	IN	NS	ns4.godns.net.
+fussionsa.com.ar.	3600	IN	NS	ns3.godns.net.
+fussionsa.com.ar.	3600	IN	NS	ns1.godns.net.
+comexarshippingsa.com.ar. 3600	IN	NS	choique.itcsa.net.ar.
+comexarshippingsa.com.ar. 3600	IN	NS	ns3.itcsa.net.
+reposterisima.com.ar.	3579	IN	NS	ns3.itcsa.net.
+reposterisima.com.ar.	3579	IN	NS	choique.itcsa.net.ar.
+franquiciasdeloeste.com.ar. 3600 IN	NS	ns3.itcsa.net.
+franquiciasdeloeste.com.ar. 3600 IN	NS	choique.itcsa.net.ar.
+biomolmza.com.ar.	3579	IN	NS	choique.itcsa.net.ar.
+biomolmza.com.ar.	3579	IN	NS	ns3.itcsa.net.
+abc1distribuciones.com.ar. 3579	IN	NS	choique.itcsa.net.ar.
+abc1distribuciones.com.ar. 3579	IN	NS	ns3.itcsa.net.
+transmetalcoop.com.ar.	3580	IN	NS	ns3.itcsa.net.
+transmetalcoop.com.ar.	3580	IN	NS	choique.itcsa.net.ar.
+estudioverdaguer.com.ar. 3580	IN	NS	ns3.itcsa.net.
+estudioverdaguer.com.ar. 3580	IN	NS	choique.itcsa.net.ar.
+netcompu.com.ar.	3580	IN	NS	ns3.itcsa.net.
+netcompu.com.ar.	3580	IN	NS	choique.itcsa.net.ar.
+empresastahan.com.	580	IN	NS	ns1.wiroos.com.
+empresastahan.com.	580	IN	NS	ns2.wiroos.com.
+tersac.com.ar.		3580	IN	NS	ns3.itcsa.net.
+tersac.com.ar.		3580	IN	NS	choique.itcsa.net.ar.
+sergiorocamora.com.ar.	3581	IN	NS	ns8371.hostgator.com.
+sergiorocamora.com.ar.	3581	IN	NS	ns8372.hostgator.com.
+burbujasysabores.com.ar. 3600	IN	NS	ns3.itcsa.net.
+burbujasysabores.com.ar. 3600	IN	NS	ns2.guaymallen.gob.ar.
+burbujasysabores.com.ar. 3600	IN	NS	ns1.guaymallen.gob.ar.
+cdguaymallen.gob.ar.	3582	IN	NS	ns3.itcsa.net.
+cdguaymallen.gob.ar.	3582	IN	NS	choique.itcsa.net.ar.
+simcya.com.ar.		3582	IN	NS	ns1.hostinger-ar.com.
+simcya.com.ar.		3582	IN	NS	ns4.hostinger-ar.com.
+simcya.com.ar.		3582	IN	NS	ns3.hostinger-ar.com.
+simcya.com.ar.		3582	IN	NS	ns2.hostinger-ar.com.
+gonzalezb.com.ar.	3583	IN	NS	ns3.itcsa.net.
+gonzalezb.com.ar.	3583	IN	NS	choique.itcsa.net.ar.
+estudioterranova.com.ar. 3583	IN	NS	choique.itcsa.net.ar.
+estudioterranova.com.ar. 3583	IN	NS	ns3.itcsa.net.
+gmzmuebles.com.ar.	3600	IN	NS	ns4.hostmar.com.
+gmzmuebles.com.ar.	3600	IN	NS	ns3.hostmar.com.
+saglimited.com.		86384	IN	NS	choique.itcsa.net.ar.
+saglimited.com.		86384	IN	NS	ns3.itcsa.net.
+groupsouthatlantic.com.	86384	IN	NS	ns3.itcsa.net.
+groupsouthatlantic.com.	86384	IN	NS	choique.itcsa.net.ar.
+lazidanelia.com.	86383	IN	NS	ns3.itcsa.net.
+lazidanelia.com.	86383	IN	NS	choique.itcsa.net.ar.
+exparen.com.		86383	IN	NS	ns3.itcsa.net.
+exparen.com.		86383	IN	NS	choique.itcsa.net.ar.
+interterra.com.ar.	3583	IN	NS	choique.itcsa.net.ar.
+interterra.com.ar.	3583	IN	NS	ns3.itcsa.net.
+munizconsultores.com.ar. 3583	IN	NS	choique.itcsa.net.ar.
+munizconsultores.com.ar. 3583	IN	NS	ns3.itcsa.net.
+giasamza.com.		86384	IN	NS	ns3.itcsa.net.
+giasamza.com.		86384	IN	NS	choique.itcsa.net.ar.
+rosalba.com.ar.		3584	IN	NS	ns3.itcsa.net.
+rosalba.com.ar.		3584	IN	NS	choique.itcsa.net.ar.
+tgbcargas.com.ar.	3584	IN	NS	choique.itcsa.net.ar.
+tgbcargas.com.ar.	3584	IN	NS	ns3.itcsa.net.
+oudot.com.ar.		3584	IN	NS	ns4.hostmar.com.
+oudot.com.ar.		3584	IN	NS	ns3.hostmar.com.
+coussirat.com.ar.	3584	IN	NS	choique.itcsa.net.ar.
+coussirat.com.ar.	3584	IN	NS	ns3.itcsa.net.
+ofi-max.com.ar.		3584	IN	NS	choique.itcsa.net.ar.
+ofi-max.com.ar.		3584	IN	NS	ns3.itcsa.net.
+ayfra.com.ar.		3584	IN	NS	ns3.itcsa.net.
+ayfra.com.ar.		3584	IN	NS	choique.itcsa.net.ar.
+itcplay.net.ar.		3584	IN	NS	choique.itcsa.net.ar.
+itcplay.net.ar.		3584	IN	NS	ns3.itcsa.net.
+jc-estudio.com.ar.	3584	IN	NS	choique.itcsa.net.ar.
+jc-estudio.com.ar.	3584	IN	NS	ns3.itcsa.net.
+pithod.com.ar.		3584	IN	NS	ns3.itcsa.net.
+pithod.com.ar.		3584	IN	NS	choique.itcsa.net.ar.
+mrpyasociados.com.ar.	3584	IN	NS	ns2.santafehost.net.
+mrpyasociados.com.ar.	3584	IN	NS	ns1.santafehost.net.
+sansonigrzona.com.ar.	3585	IN	NS	ns3.itcsa.net.
+sansonigrzona.com.ar.	3585	IN	NS	choique.itcsa.net.ar.
+geoworks.com.ar.	3585	IN	NS	ns3.itcsa.net.
+geoworks.com.ar.	3585	IN	NS	choique.itcsa.net.ar.
+sunplazamendoza.com.	3585	IN	NS	ns2.gblx.net.ar.
+sunplazamendoza.com.	3585	IN	NS	ns1.gblx.net.ar.
+enisa.com.ar.		3585	IN	NS	ns3.itcsa.net.
+enisa.com.ar.		3585	IN	NS	choique.itcsa.net.ar.
+cepapp.com.ar.		3585	IN	NS	ns3.itcsa.net.
+cepapp.com.ar.		3585	IN	NS	choique.itcsa.net.ar.
+kioscosyes.com.ar.	3585	IN	NS	ns3.itcsa.net.
+kioscosyes.com.ar.	3585	IN	NS	choique.itcsa.net.ar.
+rctransportes.com.ar.	1800	IN	NS	ns3.digitalocean.com.
+rctransportes.com.ar.	1800	IN	NS	ns1.digitalocean.com.
+rctransportes.com.ar.	1800	IN	NS	ns2.digitalocean.com.
+etiquetasdevino.com.ar.	3586	IN	NS	ns3.itcsa.net.
+etiquetasdevino.com.ar.	3586	IN	NS	choique.itcsa.net.ar.
+netball.com.ar.		3586	IN	NS	ns3.itcsa.net.
+netball.com.ar.		3586	IN	NS	choique.itcsa.net.ar.
+in-fraestructura.com.ar. 3586	IN	NS	ns3.itcsa.net.
+in-fraestructura.com.ar. 3586	IN	NS	choique.itcsa.net.ar.
+mymargentina.com.	172786	IN	NS	ns3.itcsa.net.
+mymargentina.com.	172786	IN	NS	choique.itcsa.net.ar.
+sistemaospelsym.com.ar.	3585	IN	NS	ns1.openminds.com.ar.
+sistemaospelsym.com.ar.	3585	IN	NS	ns1.ospelsym.com.ar.
+invertirenmendoza.gob.ar. 3585	IN	NS	ns1.gblx.net.ar.
+invertirenmendoza.gob.ar. 3585	IN	NS	ns2.gblx.net.ar.
+investinmendoza.gob.ar.	3586	IN	NS	ns1.gblx.net.ar.
+investinmendoza.gob.ar.	3586	IN	NS	ns2.gblx.net.ar.
+mosso-oc.com.ar.	3586	IN	NS	ns3.itcsa.net.
+mosso-oc.com.ar.	3586	IN	NS	choique.itcsa.net.ar.
+pronesurargentina.com.ar. 3586	IN	NS	choique.itcsa.net.ar.
+pronesurargentina.com.ar. 3586	IN	NS	ns3.itcsa.net.
+o365.fecovita.com.	172786	IN	NS	choique.itcsa.net.ar.
+o365.fecovita.com.	172786	IN	NS	ns3.itcsa.net.
+morelan.com.ar.		3586	IN	NS	choique.itcsa.net.ar.
+morelan.com.ar.		3586	IN	NS	ns3.itcsa.net.
+hospitalcentral.com.ar.	3586	IN	NS	tomero.itcsa.net.ar.
+hospitalcentral.com.ar.	3586	IN	NS	choique.itcsa.net.ar.
+mundosurnatural.com.ar.	3586	IN	NS	choique.itcsa.net.ar.
+mundosurnatural.com.ar.	3586	IN	NS	ns3.itcsa.net.
+riga.com.ar.		3586	IN	NS	choique.itcsa.net.ar.
+riga.com.ar.		3586	IN	NS	ns3.itcsa.net.
+thebridgesrl.com.ar.	3586	IN	NS	choique.itcsa.net.ar.
+thebridgesrl.com.ar.	3586	IN	NS	ns3.itcsa.net.
+dhlmendoza.com.ar.	3584	IN	NS	ns3.itcsa.net.
+dhlmendoza.com.ar.	3584	IN	NS	choique.itcsa.net.ar.
+estudiotripoli.com.	3600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+estudiotripoli.com.	3556	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+colegiosanluisgonzaga.edu.ar. 3600 IN	TXT	"v=spf1 include:_spf.google.com ip4:199.180.249.226 ~all"
+miguelsantos.com.ar.	604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+hotelprincess.com.ar.	14400	IN	TXT	"v=spf1 +a +mx +ip4:190.61.250.180 +ip4:190.61.219.158 ~all"
+liderarmza.com.ar.	300	IN	TXT	"v=spf1 mx ~all"
+hotelcarollo.com.ar.	14400	IN	TXT	"v=spf1 +a +mx +ip4:190.61.250.180 +ip4:190.61.219.158 ~all"
+vacasmedios.com.ar.	600	IN	TXT	"v=spf1 ip4:170.78.74.12 ip4:170.78.74.12 +a +mx ~all"
+losromeros.com.ar.	14400	IN	TXT	"v=spf1 a ptr ~all"
+calvoasociados.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+estudiofarruggia.com.ar. 3600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+drogueriapolo.com.ar.	604800	IN	TXT	"v=spf1 include:itcsa.net"
+larositasa.com.ar.	600	IN	TXT	"v=spf1 ip4:170.78.74.12 ip4:170.78.74.12 +a +mx ~all"
+cjhenriquez.com.ar.	604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+estudioaduanerososa.com.ar. 600	IN	TXT	"v=spf1 ip4:170.78.74.12 ip4:170.78.74.12 +a +mx ~all"
+dominguezespuri.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+bolsamza.com.ar.	604800	IN	TXT	"v=spf1 a mx a:mail.bolsamza.com.ar mx:bolsamza.com.ar   ip4:190.15.203.2 ~all"
+aefipmendoza.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+ccinmobiliariomza.com.ar. 86400	IN	TXT	"v=spf1 ip4:190.113.128.6 include:_spf.google.com ~all "
+palmaresopen.com.ar.	3600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+asistir.net.		604800	IN	TXT	"v=spf1 mx a ip4:190.15.196.190  ~all"
+aportaabogados.com.ar.	604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+cllano.com.ar.		86400	IN	TXT	"v=spf1 a mx include:mx.allynews.com.ar ip4:200.68.105.229 ip4:200.68.105.119 ip4:200.68.105.37 ~all"
+tgya.com.ar.		604800	IN	TXT	"v=spf1 mx mx:mail.tgya.com.ar ip4:190.15.210.108 -all"
+tribunet.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+silvao.com.ar.		604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 ip4:190.15.222.56  mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:imap.itcsa.net mx:mx2.itcsa.net"
+proyeccionaduanera.com.ar. 604800 IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+igmar.com.ar.		604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+lucianahogar.net.	604800	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+hespanol.com.ar.	604800	IN	TXT	"v=spf1 ip4:190.3.92.110 mx ip4:190.15.201.12 ~all"
+depormaniamendoza.com.ar. 604800 IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+fecovita.com.		3600	IN	TXT	"v=spf1 ip4:190.15.203.90 ip4:190.220.150.162 include:spf.protection.outlook.com ~all"
+estanciamendoza.com.	604800	IN	TXT	"v=spf1 ip4:190.15.203.90 ip4:190.220.150.162 include:spf.protection.outlook.com ~all"
+productosdeloeste.com.ar. 14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+cafarmen.org.ar.	14400	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+amphiba.com.		3600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+bigmediaargentina.com.ar. 3600	IN	TXT	"v=spf1 ip4:190.210.176.190 +a +mx ~all"
+inhgroup.com.ar.	86400	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32  mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:imap.itcsa.net"
+ciudaduniversitaria.gov.ar. 3600 IN	TXT	"v=spf1 mx:mail.ciudaduniversitaria.gov.ar ip4:201.234.88.125 \013\010 p4:201.234.88.124 ip4:201.234.88.123 ip4:201.234.88.126 +all"
+ciudaduniversitaria.gob.ar. 3600 IN	TXT	"v=spf1 mx:mail.ciudaduniversitaria.gov.ar ip4:190.15.203.77 ip4:190.15.203.76 ip4:190.15.203.75 ip4:190.15.203.78 +all"
+orbetravel.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+tierrafirmesa.com.ar.	14400	IN	TXT	"v=spf1 include:spf.ipzmarketing.com"
+operacionesimex.com.ar.	86400	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+acopiospalmirasa.com.ar. 86400	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+dolphinsa.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+segurosmza.com.ar.	86400	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+corazondemariamza.edu.ar. 600	IN	TXT	"v=spf1 include:_spf.google.com include:spf.mandrillapp.com ~all"
+rkars.com.ar.		600	IN	TXT	"v=spf1 ip4:170.78.74.12 ip4:170.78.74.12 +a +mx ~all"
+estudiorapacioli.com.ar. 3600	IN	TXT	"v=spf1 ip4:190.228.29.0/24 ip4:190.228.30.0/24 ip4:107.6.16.0/24 ip4:107.6.52.0/24 ip4:76.74.198.0/24 mx -all"
+electec.com.ar.		14400	IN	TXT	"v=spf1 +a +mx +a:ns1.us135.siteground.us include:_spf.mailspamprotection.com ~all"
+linealaluminio.com.ar.	14400	IN	TXT	"v=spf1 a mx include:websitewelcome.com ~all"
+hjla.com.ar.		86400	IN	TXT	"v=spf1 include:itcsa.net"
+enoprint.com.ar.	86400	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net"
+ccemza.com.ar.		14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+ryrestudio.com.ar.	14400	IN	TXT	"v=spf1 +a +mx +ip4:205.251.138.146 +ip4:205.251.138.147 ~all"
+fscomexmdz.com.ar.	600	IN	TXT	"v=spf1 ip4:170.78.74.12 ip4:170.78.74.12 +a +mx ~all"
+dipolo.com.ar.		86400	IN	TXT	"v=spf1 mx ip4:190.15.199.166 ip4:107.182.236.178 -all"
+dlucas.com.ar.		300	IN	TXT	"v=spf1 mx a ip4:54.233.132.78/32 ~all"
+bodegacorreas.com.ar.	3600	IN	TXT	"v=spf1 ip4:190.15.222.3 ip4:190.15.222.5 ip4:190.15.221.3 ip4:190.15.222.14 ip4:190.15.222.15 ip4:190.15.222.16 ip4:190.15.222.32 mx:mx1.itcsa.net mx:smtp.itcsa.net mx:relayk.itcsa.net mx:mail.itcsa.net mx:pop.itcsa.net mx:imap.itcsa.net -all"
+bodegacorreas.com.ar.	3600	IN	TXT	"v=spf1 mx include:giga.xvserver.com ~all"
+renovacionpetrolera.com.ar. 3600 IN	TXT	"v=spf1 +a +mx +ip4:190.15.199.245 ~all"
+regencycasinos.com.	86400	IN	TXT	"v=spf1 a mx ~all"
+digla.com.ar.		14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+paleroimpresores.com.ar. 14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+resipelsrl.com.ar.	14400	IN	TXT	"v=spf1 a mx include:websitewelcome.com ~all"
+fussionsa.com.ar.	3600	IN	TXT	"v=spf1 ip4:190.228.29.0/24 ip4:190.228.30.0/24 ip4:107.6.16.0/24 ip4:107.6.52.0/24 ip4:76.74.198.0/24 mx -all"
+comexarshippingsa.com.ar. 86400	IN	TXT	"v=spf1 include:itcsa.net"
+biomolmza.com.ar.	86400	IN	TXT	"v=spf1 include:itcsa.net"
+empresastahan.com.	600	IN	TXT	"v=spf1 ip4:54.39.100.5 ip4:198.50.170.106 +a +mx +ip4:144.217.72.71 +ip4:192.95.32.180 +ip4:54.39.2.248 +ip4:144.217.64.124 +ip4:158.69.166.58 ~all"
+tersac.com.ar.		86400	IN	TXT	"v=spf1 include:itcsa.net"
+sergiorocamora.com.ar.	14400	IN	TXT	"v=spf1 a mx include:websitewelcome.com ~all"
+cdguaymallen.gob.ar.	86400	IN	TXT	"v=spf1 a mx ptr a:zimbra.cdguaymallen.gob.ar mx:zimbra.cdguaymallen.gob.ar -all"
+estudioterranova.com.ar. 10800	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+gmzmuebles.com.ar.	14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+saglimited.com.		86400	IN	TXT	"v=spf1 mx a:saglimited.com ~all"
+groupsouthatlantic.com.	86400	IN	TXT	"v=spf1 mx a:groupsouthatlantic.com ~all"
+exparen.com.		86400	IN	TXT	"v=spf1 mx a:exparen.com ~all"
+munizconsultores.com.ar. 86400	IN	TXT	"v=spf1 include:itcsa.net"
+rosalba.com.ar.		86400	IN	TXT	"v=spf1 include:itcsa.net"
+oudot.com.ar.		14400	IN	TXT	"v=spf1 include:spf.hostmar.com -all"
+itcplay.net.ar.		86400	IN	TXT	"v=spf1 include:itcsa.net"
+jc-estudio.com.ar.	86400	IN	TXT	"v=spf1 include:itcsa.net"
+pithod.com.ar.		86400	IN	TXT	"v=spf1 include:itcsa.net"
+mrpyasociados.com.ar.	14400	IN	TXT	"v=spf1 a mx ip4:138.128.160.50 ~all"
+sansonigrzona.com.ar.	86400	IN	TXT	"v=spf1 include:itcsa.net"
+geoworks.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+enisa.com.ar.		172800	IN	TXT	"v=spf1 include:itcsa.net"
+cepapp.com.ar.		172800	IN	TXT	"v=spf1 ip4:190.15.209.213  mx:mail.cepapp.com.ar"
+kioscosyes.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+etiquetasdevino.com.ar.	172800	IN	TXT	"v=spf1 ip4:190.15.203.2  mx:mail.etiquetasdevino.com.ar"
+netball.com.ar.		172800	IN	TXT	"v=spf1 include:itcsa.net"
+in-fraestructura.com.ar. 172800	IN	TXT	"v=spf1 include:itcsa.net"
+mymargentina.com.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+mosso-oc.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+pronesurargentina.com.ar. 172800 IN	TXT	"v=spf1 include:itcsa.net"
+gs.fecovita.com.	3600	IN	TXT	"v=spf1 include:_spf.google.com -all"
+morelan.com.ar.		172800	IN	TXT	"v=spf1 include:itcsa.net"
+hospitalcentral.com.ar.	604800	IN	TXT	"v=spf1 include:itcsa.net"
+mundosurnatural.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+riga.com.ar.		172800	IN	TXT	"v=spf1 include:itcsa.net"
+thebridgesrl.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"
+dhlmendoza.com.ar.	172800	IN	TXT	"v=spf1 include:itcsa.net"

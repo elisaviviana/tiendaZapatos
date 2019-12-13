@@ -3,6 +3,4 @@ var btncomprar  = document.querySelector(".carcomprar");
 
 
 
-
-
 }

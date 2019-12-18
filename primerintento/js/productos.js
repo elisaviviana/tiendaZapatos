@@ -8,17 +8,29 @@ fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
 })
 .then(function(dataCruda){
   let produc = document.querySelector('.jsonproducto');
-
+  let cantidad = 0;
+  let nuevorow = document.createElement('div');
+  nuevorow.className = "row ";
+  produc.append(nuevorow);
+  rowultimo = nuevorow;
   //recorremos cada elemento para crear el html
   dataCruda.forEach(function(elemento){
     //si tenemos tres elementos creamos un nuevo row
-    if(elemento['id']%3==0){
-      console.log("entro al ig ==0");
+    // if(elemento['id']%3==0){
+    //   console.log("entro al ig ==0");
+    //   let nuevorow = document.createElement('div');
+    //   nuevorow.className = "row ";
+    //   produc.append(nuevorow);
+    //   rowultimo = nuevorow;
+    // }
+    console.log(cantidad);
+    while (cantidad==3) {
       let nuevorow = document.createElement('div');
       nuevorow.className = "row ";
       produc.append(nuevorow);
       rowultimo = nuevorow;
-    }
+      cantidad =0;
+}
 
     let nuevodiv = document.createElement('div');
     nuevodiv.className+="col-md-4 col-sm-4";
@@ -46,6 +58,8 @@ fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
     nuevodiv3.append(nuevoa);
     nuevodiv2.append(nuevodiv3);
     rowultimo.append(nuevodiv);
+    cantidad = cantidad+1;
+
   });
 
   console.log(produc);

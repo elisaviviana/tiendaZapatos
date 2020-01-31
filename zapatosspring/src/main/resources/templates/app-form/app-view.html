@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Como mostrar datos</title>
+
+<!--JQUERY-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+
+<!--  BOOTSTRAP -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+
+<!-- Los iconos de Fontawesome-->
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Nuestro css-->
+<link rel="stylesheet" type="text/css" href="static/css/form.css"
+	th:href="@{/css/form.css}">
+
+<!-- DATA TABLE -->
+<script
+	src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script
+	src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		//Asegurate que el id que le diste a la tabla sea igual al texto despues del simbolo #
+		$('#userList').DataTable();
+	});
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="mx-auto col-sm-12 main-section" id="myTab" role="tablist">
+			<ul class="nav nav-tabs justify-content-end">
+				<li class="nav-item"><a class="nav-link" id="listB-tab"
+					data-toggle="tab" href="#listProducto" role="tab" aria-controls="listB"
+					aria-selected="true">Productos</a></li>
+				<li class="nav-item"><a class="nav-link" id="form-tab"
+					data-toggle="tab" href="#form" role="tab" aria-controls="form"
+					aria-selected="true">Modificar Producto</a></li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show" th:classappend=" ${listTab}"
+					id="list" role="tabpanel" aria-labelledby="list-tab">
+					<div class="card">
+						<div class="card-header">
+							<h4>Lista de Entidades</h4>
+						</div>
+						<div class="card-body">
+							<div th:include="app-form/leer-list.html" th:remove="tag"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade show" th:classappend=" ${formTab}"
+					id="form" role="tabpanel" aria-labelledby="form-tab">
+					<div class="card">
+						<div class="card-header">
+							<h4>Modificar Producto</h4>
+						</div>
+						<div class="card-body">
+							<div th:include="app-form/editar-Producto.html" th:remove="tag"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade show" th:classappend=" ${listBTab}"
+					id="listB" role="tabpanel" aria-labelledby="list-tab">
+					<div class="card">
+						<div class="card-header">
+							<h4>Lista de Entidades B</h4>
+						</div>
+						<div class="card-body">
+							<div th:include="app-form/leer-listB.html" th:remove="tag"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade show" th:classappend=" ${listProductoTab}"
+					id="listProducto" role="tabpanel" aria-labelledby="list-tab">
+					<div class="card">
+						<div class="card-header">
+							<h4>Productos</h4>
+						</div>
+						<div class="card-body">
+							<div th:include="app-form/leer-listProductos.html" th:remove="tag"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div th:include="app-form/delete-dialog.html" th:remove="tag"></div>
+</body>
+</html>

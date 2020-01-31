@@ -1,0 +1,48 @@
+<div class="table-responsive">
+	<table id="userList" class="table table-bordered table-hover table-striped">
+		<thead class="thead-light">
+			<tr>
+				<th scope="col">id</th>
+				<th scope="col">CodProducto</th>
+				<th scope="col">Cantidad</th>
+				<th scope="col">Marca</th>
+				<th scope="col">Modelo</th>
+				<th scope="col">Categoria</th>
+				<th scope="col">Genero</th>
+				<th scope="col">Descripción</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="entidad: ${leerList}">
+				<td th:text="${entidad.id}"></td>
+				<td th:text="${entidad.name}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td th:text="${entidad.cantidad}"></td>
+				<td><a href="#" th:href="@{'/editarEntidad/'+ ${entidad.id}}"><i
+						class="fas fa-edit"></i></a> | <a href="#"
+					th:onclick="'javascript:confirmDelete(\''+ ${entidad.id} +'\');'"><i
+						class="fas fa-user-times"></i></a></td>
+			</tr>
+	</table>
+
+	<div class="alert alert-danger text-center" th:if="${deleteError}"
+		id="deleteError" role="alert">
+		<span th:text="${deleteError}"></span>
+	</div>
+</div>
+<script type="text/javascript">
+	function confirmDelete(id) {
+		$('#deleteModal').modal('show');
+		$("#entidadIdHiddenInput").val(id);
+	}
+
+	function deleteEntidad() {
+		var id = $("#entidadIdHiddenInput").val();
+		window.location = "deleteEntidad/" + id;
+	}
+</script>

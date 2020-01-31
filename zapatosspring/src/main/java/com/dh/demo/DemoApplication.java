@@ -1,13 +1,13 @@
-package com.tiendazapatos.zapatosspring;
+package com.dh.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZapatosspringApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZapatosspringApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }

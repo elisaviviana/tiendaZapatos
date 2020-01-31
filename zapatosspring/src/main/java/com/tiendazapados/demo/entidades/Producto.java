@@ -1,4 +1,4 @@
-package com.dh.demo.entidades;
+package com.tiendazapados.demo.entidades;
 
 public class Producto {
 

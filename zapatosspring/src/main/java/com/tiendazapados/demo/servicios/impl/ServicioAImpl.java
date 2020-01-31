@@ -1,14 +1,17 @@
-package com.dh.demo.servicios.impl;
+package com.tiendazapados.demo.servicios.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.dh.demo.entidades.MiEntidad;
-import com.dh.demo.servicios.MiInterfazServicio;
-@Service("servicioB")
-public class ServicioBImpl implements MiInterfazServicio {
+import com.tiendazapados.demo.entidades.MiEntidad;
+import com.tiendazapados.demo.servicios.MiInterfazServicio;
+
+
+@Service("servicioA")
+public class ServicioAImpl implements MiInterfazServicio {
+	
 	/**
 	 * Genero una lista
 	 */
@@ -18,8 +21,8 @@ public class ServicioBImpl implements MiInterfazServicio {
 		for(int i=0;i<=10;i++){
 			entidad = new MiEntidad();
 			entidad.setId(new Long(i));
-			entidad.setName("entidad-B" + i);
-			entidad.setCantidad(i++);
+			entidad.setName("entidad" + i);
+			entidad.setCantidad(i);
 			miEntidad.add(entidad);
 		}
 		return miEntidad;
@@ -30,8 +33,6 @@ public class ServicioBImpl implements MiInterfazServicio {
 		// TODO Auto-generated method stub
 		for (MiEntidad unaEntidad : listaConTodasLasEntidades) {
 			if(unaEntidad.getId().compareTo(id)==0){
-				unaEntidad.setCantidad(1000);
-				unaEntidad.setName("Entidad-Editada");
 				return unaEntidad;
 			}
 		}

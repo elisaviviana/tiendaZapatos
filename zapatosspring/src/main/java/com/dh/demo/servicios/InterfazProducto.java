@@ -1,8 +1,8 @@
-package com.tiendazapados.demo.servicios;
+package com.dh.demo.servicios;
 
 import java.util.List;
 
-import com.tiendazapados.demo.entidades.Producto;
+import com.dh.demo.entidades.Producto;
 
 public interface InterfazProducto {
 	public List<Producto> generarLista();

@@ -1,12 +1,13 @@
-package com.tiendazapados.demo.servicios.impl;
+package com.dh.demo.servicios.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.tiendazapados.demo.entidades.Producto;
-import com.tiendazapados.demo.servicios.InterfazProducto;
+
+import com.dh.demo.entidades.Producto;
+import com.dh.demo.servicios.InterfazProducto;
 
 
 

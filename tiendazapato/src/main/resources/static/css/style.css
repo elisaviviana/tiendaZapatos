@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-size: cover;
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+  /* background-image: url("../img/images.jpeg");
+  background-repeat: no-repeat; */
+  /*background-color: #073B3A !important;*/
+  color: white;
+
+}
+

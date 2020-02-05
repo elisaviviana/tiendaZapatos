@@ -13,7 +13,7 @@ import com.dh.demo.servicios.InterfazProducto;
 
 @Service("Producto")
 public class ServicioProductoImpl implements InterfazProducto {
-	
+
 	/**
 	 * Genero una lista
 	 */
@@ -30,8 +30,8 @@ public class ServicioProductoImpl implements InterfazProducto {
 			prod.setCategoria("Categoria"+i);
 			prod.setGenero("Genero");
 			prod.setDescripcion("descripcion del calzado");
-		
-			
+
+
 			miproducto.add(prod);
 		}
 		return miproducto;

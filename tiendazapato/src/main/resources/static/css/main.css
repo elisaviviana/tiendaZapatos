@@ -1,0 +1,72 @@
+
+@import 'menus.css';
+* {
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  /* background-image: url("../img/images.jpeg");
+  background-repeat: no-repeat; */
+}
+body #footer{
+height: "400px";
+margin: 0;
+padding: 0;
+border: 0;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.objheader {
+  position: relative;
+  z-index: 100;
+}
+.formulario{
+  margin-bottom:  0px;
+}
+.modificarUsuario{
+  margin-top: "5";
+  text-align: center;
+  text-decoration:  none;
+  text-decoration-color: black;
+  color: black;
+}
+.product-thumbnail{
+  width: 10%;
+}
+#cuerpo{
+  margin-top: 75px;
+}
+#imagenheader{
+  width: 37px;
+  height: 37px;
+}
+#imagencarrito{
+    width: 37px;
+    height: 37px;
+}
+#imagendelete{
+  width: 20px;
+  height: 20px;
+  /* centrar imagen */
+  display:block;
+  margin:auto;
+}
+#imgproductocarrito{
+    width: 100%;
+}
+#cantproducto{
+  width: 30%;
+  margin-left: 30px;
+  display:block;
+  margin:auto;
+}
+#cantproductotitle{
+  text-align: center;
+}
+#nameproducto{
+  width: 50%
+}

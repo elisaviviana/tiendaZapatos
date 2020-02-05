@@ -60,7 +60,7 @@
 					<div class="card-body">
 						<div class="form-group">
 							<label for="id">* id:</label> <input type="text" id="id"
-								class="form-control" placeholder="id" disable>
+								class="form-control" placeholder="id" readonly>
 						</div>
 						<div class="form-group">
 							<label for="Nombre">* Nombre:</label> <input
@@ -72,7 +72,7 @@
 								class="form-control" placeholder="Apellido" required>
 						</div>
 						<div class="form-group">
-							<label for="email">* email:</label> <input type="text"
+							<label for="email">* email:</label> <input type="email"
 								id="email" class="form-control" placeholder="email" required>
 						</div>
 						<div class="form-group">
@@ -80,7 +80,7 @@
 								id="DNI" class="form-control" placeholder="DNI" required>
 						</div>
 						<div class="form-group">
-							<label for="Contraseña">* Contraseña:</label> <input type="text"
+							<label for="Contraseña">* Contraseña:</label> <input type="password"
 								id="Contraseña" class="form-control" placeholder="Contraseña"
 								required>
 						</div>
@@ -98,7 +98,7 @@
 			</div>
 		</div>
 	</div>
-
+<div th:include="footer.html"></div>
 
 </body>
 </html>

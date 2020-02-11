@@ -38,6 +38,7 @@ public class HomeController {
 		model.addAttribute("leerList", servicioA.generarLista());
 		model.addAttribute("leerListB", servicioB.generarLista());
 		model.addAttribute("leerListProducto", producto.generarLista());
+
 		model.addAttribute("listTab","active");
 		return "app-form/app-view";
 	}

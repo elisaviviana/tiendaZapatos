@@ -1,17 +1,43 @@
 package com.tz.tiendazapato.entidades;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "producto")
 public class Producto {
 
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
-	private Integer codProducto;
+	@Column(name = "cod_producto", nullable = true, length = 150)
+	private String codProducto;
+	@Column(name = "cantidad", nullable = true, length = 150)
 	private Integer cantidad;
+	@Column(name = "marca", nullable = true, length = 255)
 	private String marca;
+	@Column(name = "modelo", nullable = true, length = 255)
 	private String modelo;
+	@Column(name = "categoria", nullable = true, length = 255)
 	private String categoria;
+	@Column(name = "genero", nullable = true, length = 255)
 	private String genero;
+	@Column(name = "descripcion", nullable = true, length = 255)
 	private String descripcion;
+	@Column(name="precio", nullable = true)	
+	private Integer precio;
 		
 
+	public Integer getPrecio() {
+		return precio;
+	}
+	public void setPrecio(Integer precio) {
+		this.precio = precio;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -25,10 +51,10 @@ public class Producto {
 	public void setCantidad(Integer cantidad) {
 		this.cantidad = cantidad;
 	}
-	public Integer getCodProducto() {
+	public String getCodProducto() {
 		return codProducto;
 	}
-	public void setCodProducto(Integer codProducto) {
+	public void setCodProducto(String codProducto) {
 		this.codProducto = codProducto;
 	}
 	public String getMarca() {

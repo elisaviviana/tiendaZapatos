@@ -70,3 +70,10 @@ border: 0;
 #nameproducto{
   width: 50%
 }
+input#CodProducto.form-control.CodProductoError{
+		color:white; 
+ 		background-color:#611111;
+		/* border:1px solid #611111; */
+	    
+}
+

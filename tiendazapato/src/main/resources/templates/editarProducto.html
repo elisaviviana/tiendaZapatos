@@ -24,12 +24,10 @@
 <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 <!-- Nuestro css-->
-<link rel="stylesheet" type="text/css" href="../static/css/style.css"
-	th:href="@{/css/style.css}">
 	<link rel="stylesheet" type="text/css" href="../static/css/main.css"
 	th:href="@{/css/main.css}">
 
-
+	
 </head>
 <body>
 <!-- 	//////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -39,48 +37,45 @@
 	<div class="container mt-5 formulario">
 		<div class="row">
 			<div class="col-md-6 mx-auto my-auto">
-				<form class="card mt-4">
+		<!-- lo que costo hacer el action con parametro..jajajaja -->
+				<form class="card mt-4" th:action="@{/}+${action}" th:object="${prod}" method="post">
 					<div class="card-header">
 						<h4>Producto</h4>
 					</div>
 					<div class="card-body">
 						<div class="form-group">
-							<label for="id">* id:</label> <input type="text" id="id"
-								class="form-control" placeholder="id" readonly>
-						</div>
+							<label for="id">* id:</label> <input type="text" 	
+								class="form-control" placeholder="id" th:field="*{id}" readonly>
+					</div>
 						<div class="form-group">
 							<label for="CodProducto">* CodProducto:</label> <input
 								type="text" id="CodProducto" class="form-control"
-								placeholder="CodProducto" required>
+								placeholder="CodProducto" th:classappend="${error} ?'CodProductoError':''"  th:field="*{codProducto}" required>
 						</div>
 						<div class="form-group">
 							<label for="Marca">* Marca:</label> <input type="text" id="Marca"
-								class="form-control" placeholder="Marca" required>
+								class="form-control" placeholder="Marca" th:field="*{marca}" required>
 						</div>
 						<div class="form-group">
 							<label for="Precio">* Precio:</label> <input type="text"
-								id="Precio" class="form-control" placeholder="Precio" required>
+								id="Precio" class="form-control" placeholder="Precio" th:field="*{precio}" required>
 						</div>
 						<div class="form-group">
 							<label for="Genero">* Género:</label> <input type="text"
-								id="Genero" class="form-control" placeholder="Genero" required>
+								id="Genero" class="form-control" placeholder="Genero" th:field="*{genero}" required>
 						</div>
 						<div class="form-group">
 							<label for="Categoria">* Categoria:</label> <input type="text"
-								id="Categoria" class="form-control" placeholder="Categoria"
+								id="Categoria" class="form-control" placeholder="Categoria" th:field="*{categoria}"
 								required>
 						</div>
 						<div class="form-group">
 							<label for="Descripcion">* Descripción:</label> <input
 								type="text" id="Descripcion" class="form-control"
-								placeholder="Descripcion" required>
+								placeholder="Descripcion" th:field="*{descripcion}" required>
 						</div>
-						<div class="form-group">
-							<label for="Talle">* Talle:</label> <input type="text" id="Talle"
-								class="form-control" placeholder="Talle" required>
-						</div>
-						<button class="btn btn-outline-secondary btn-block">
-							Agregar Producto</button>
+
+						<button class="btn btn-outline-secondary btn-block" th:text="${nombreBoton}">	</button>
 					</div>
 				</form>
 			</div>

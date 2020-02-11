@@ -1,0 +1,19 @@
+/////////////////////////
+DUDAS
+/////////////////////////
+1- no puedo agregar el encabezado y footer en la pagina de productos.html.. que tiene la tabla
+	<div th:include="header.html" ></div>
+	<div th:include="footer.html" ></div>
+	en las otras paginas que no tiene la tabla si funciona
+	
+2- @PostMapping("/agregarProducto") en controller...
+ pude capturar el error.. pero no mostrar un mensaje de que el codProducto ya existe en la base
+
+
+/////////////////////////
+Falta de productos.
+/////////////////////////
+terminar de editar 
+buscar en la tabla
+eliminar
+	

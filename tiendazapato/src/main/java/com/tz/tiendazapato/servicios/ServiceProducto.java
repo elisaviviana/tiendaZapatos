@@ -31,17 +31,19 @@ public interface ServiceProducto {
 	
 	/**
 	 * Permite editar un Producto
-	 * @param movie la pelicula a editar
+	 * @param prod es el producto a editar
 	 * @return true si se edito con exito
-	 */
-	boolean editarProducto(Producto prod);
-
-	/**
-	 * Genera una nueva pelicula en el sistema
-	 * @param movie a guardar
-	 * @return true si se guardo ok la pelicula
 	 * @throws Exception 
 	 */
-	boolean agregar(Producto prod) ;
+	boolean editarProducto(Producto prod) throws Exception;
+
+	/**
+	 * Genera un nuevo producto en el sistema
+	 * @param prod a guardar
+	 * @return true si se guardo ok
+	 * @throws Exception 
+	 */
+	boolean agregar(Producto prod) throws Exception ;
+	boolean eliminar(Producto prod) throws Exception ;
 	
 }

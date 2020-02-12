@@ -37,7 +37,7 @@
 	<div class="container mt-5 formulario">
 		<div class="row">
 			<div class="col-md-6 mx-auto my-auto">
-		<!-- lo que costo hacer el action con parametro..jajajaja -->
+		<!-- lo que costo hacer el action con parametro.. -->
 				<form class="card mt-4" th:action="@{/}+${action}" th:object="${prod}" method="post">
 					<div class="card-header">
 						<h4>Producto</h4>
@@ -48,7 +48,7 @@
 								class="form-control" placeholder="id" th:field="*{id}" readonly>
 					</div>
 						<div class="form-group">
-							<label for="CodProducto">* CodProducto:</label> <input
+							<label for="CodProducto" >* CodProducto:</label> <input
 								type="text" id="CodProducto" class="form-control"
 								placeholder="CodProducto" th:classappend="${error} ?'CodProductoError':''"  th:field="*{codProducto}" required>
 						</div>

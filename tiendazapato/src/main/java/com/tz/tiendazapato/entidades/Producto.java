@@ -30,8 +30,16 @@ public class Producto {
 	private String descripcion;
 	@Column(name="precio", nullable = true)	
 	private Integer precio;
+	@Column(name="activo", nullable = true)	
+	private Integer activo=1;
 		
 
+	public Integer getActivo() {
+		return activo;
+	}
+	public void setActivo(Integer activo) {
+		this.activo = activo;
+	}
 	public Integer getPrecio() {
 		return precio;
 	}

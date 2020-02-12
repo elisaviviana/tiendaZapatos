@@ -33,19 +33,51 @@ public class ServiceProductoImpl implements ServiceProducto {
 	}
 
 	@Override
-	public boolean editarProducto(Producto prod) {
-		return false;
+	public boolean editarProducto(Producto prod) throws Exception {
+		//validar que el codproducto exista.. si existe se hace la modificacion..sino da error
+		//si existe modifica el producto y devuelve true, sino devuelve false
+		/**
+		 * Si existe el codProducto hace la modificacion
+		 */
+		if(existeCodProd(prod.getCodProducto())) {
+			prodRepo.save(prod);
+			return true;
+		}else {
+			//return false;
+			throw new Exception("El producto no se puedo editar" );
+		}
 	}
 
+
+
 	@Override
-	public boolean agregar(Producto prod)   {
-		// falta validar que el producto ya exista--- por codProducto
+	public boolean agregar(Producto prod)   throws Exception  {
+		// validar que el producto ya exista--- por codProducto
+		// si no existe lo guarda, sino devuelve false
+		/**
+		 * Si existe el Cod de producto no deja cargar uno nuevo
+		 */
+		if(!existeCodProd(prod.getCodProducto())) {
+			prodRepo.save(prod);
+			return true;
+		}else { 
+			return false;
+			//throw new Exception("El producto no se puedo guardar" );
+		}
+	}
+	@Override
+	public boolean eliminar(Producto prod) throws Exception {
+
+		/**
+		 * Marca como inactivo el producto.. en vez de eliminarlo de la base de datos
+		 */
+		prod.setActivo(0);
 		if(existeCodProd(prod.getCodProducto())) {
 			prodRepo.save(prod);
 			return true;
 		}else { 
 			return false;
-		}
+			}
 	}
 	
 	@Override
@@ -57,18 +89,23 @@ public class ServiceProductoImpl implements ServiceProducto {
 	
 
 	private boolean existeCodProd(String codProducto) {
-
-// 1-buscar en la base de datos si ese codProducto existe, si existe false, sino true--- base de datos atravez del repositorio
+		/**
+		 * Si existe el Cod de producto no deja cargar uno nuevo
+		 */
+		// 1-buscar en la base de datos si ese codProducto existe,
+		//si existe false, sino true--- base de datos atravez del repositorio
 	  Producto prodFound =	prodRepo.findBycodProductoIs(codProducto);
 		if(prodFound == null) {
-			return true;	
+			return false;	
 		}
 		else {
-			return false;
+			return true;
 		}
 		
 		
 	}
+
+
 
 
 

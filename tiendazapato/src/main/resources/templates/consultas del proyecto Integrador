@@ -9,11 +9,20 @@ DUDAS
 2- @PostMapping("/agregarProducto") en controller...
  pude capturar el error.. pero no mostrar un mensaje de que el codProducto ya existe en la base
 
+3-// me da error en editar y agregar			
+throw new Exception("El producto no se puedo editar" );
+como hago para que no explote, porque devolviendo false vuelvo a la pagina principal de productos
+
+
+4-  como hace para buscar en la ventana principal de producto .. con search
+busca en la tabla .. no en la base de datos.... verdad?
+
+
 
 /////////////////////////
 Falta de productos.
 /////////////////////////
-terminar de editar 
+terminar de editar // exploto en 		
 buscar en la tabla
 eliminar
 	

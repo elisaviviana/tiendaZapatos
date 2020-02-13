@@ -5,6 +5,7 @@ DUDAS
 	<div th:include="header.html" ></div>
 	<div th:include="footer.html" ></div>
 	en las otras paginas que no tiene la tabla si funciona
+	FRAGMENTO THYME...
 	
 2- @PostMapping("/agregarProducto") en controller...
  pude capturar el error.. pero no mostrar un mensaje de que el codProducto ya existe en la base
@@ -17,7 +18,7 @@ como hago para que no explote, porque devolviendo false vuelvo a la pagina princ
 4-  como hace para buscar en la ventana principal de producto .. con search
 busca en la tabla .. no en la base de datos.... verdad?
 
-
+SACAR LOS ID DE LOS FORMULARIOS
 
 /////////////////////////
 Falta de productos.

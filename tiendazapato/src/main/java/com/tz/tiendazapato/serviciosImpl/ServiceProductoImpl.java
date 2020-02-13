@@ -71,6 +71,7 @@ public class ServiceProductoImpl implements ServiceProducto {
 		/**
 		 * Marca como inactivo el producto.. en vez de eliminarlo de la base de datos
 		 */
+		//Producto prod = prodServis.buscarProducto(id);
 		prod.setActivo(0);
 		if(existeCodProd(prod.getCodProducto())) {
 			prodRepo.save(prod);

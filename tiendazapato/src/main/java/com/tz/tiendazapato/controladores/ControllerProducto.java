@@ -53,7 +53,7 @@ public class ControllerProducto {
 		return "editarProducto";
 	}	
 
-	@GetMapping("/editarProducto")
+	@GetMapping("/editarProducto/{ID}")
 	public String editarProducto(Model mod, @RequestParam("id") Long id) throws Exception {
 		// buscar con el id los datos del objeto
 		// obtener el objeto y pasarlo como atributo
@@ -68,8 +68,6 @@ public class ControllerProducto {
 		mod.addAttribute("nombreBoton", "Editar Producto");
 		mod.addAttribute("action", "editarProducto");
 	//	mod.addAttribute("agregarProducto", false); LO USE PARA decidir si mostra un elemento html, pero lo saque porque el codProducto si o si tiene que estar
-		
-
 		return "editarProducto";
 	}
 	@GetMapping("/eliminarProducto")
@@ -80,6 +78,7 @@ public class ControllerProducto {
 		/**
 		 * Llama a editarProducto para modificar un producto
 		 */
+//		EL CONTROLADOR NO BUSCA
 		Producto prod = prodServis.buscarProducto(id);
 		if(prodServis.eliminar(prod)) {
 				mod.addAttribute("allProd", prodServis.buscarAllProducto());

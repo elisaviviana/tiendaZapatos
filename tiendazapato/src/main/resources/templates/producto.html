@@ -135,7 +135,8 @@
 									<td th:text="${prod.categoria}"></td>
 									<td th:text="${prod.descripcion}"></td>
  									<td>
-					<a href="#" th:href="@{'/editarProducto?id='+ ${prod.id}}"><i class="fas fa-edit"></i></a> |
+					<a href="#" th:href="@{'/editarProducto?id='(id=${prod.id})}"><i class="fas fa-edit"></i></a> |
+<!-- 					<a th:href="@{'/order/details'(id=${order.id})}"> -->
 					<a href="#" th:href="@{'/eliminarProducto?id='+ ${prod.id}}"><i class="fas fa-user-times"></i></a>
 			   		<!-- <a href="#" th:onclick="'javascript:confirmDelete(\''+ ${prod.id} +'\');'"><i class="fas fa-user-times"></i></a> -->
 			

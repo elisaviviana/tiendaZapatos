@@ -46,14 +46,18 @@ public class ControllerProducto {
 	public String agregarProducto(Model mod) {
 		mod.addAttribute("prod", new Producto());
 		mod.addAttribute("nombreBoton", "Agregar Producto");
-		mod.addAttribute("action", "agregarProducto");
+		mod.addAttribute("action", "agregarProducto");			mod.addAttribute("visibleid", false);
+
+		mod.addAttribute("visibleid", false);
+
 		//mod.addAttribute("agregarProducto", true);LO USE PARA decidir si mostra un elemento html, 
 		//pero lo saque porque el codProducto si o si tiene que estar, 
 		//en el html se usa con esta sintaxi th:if="${agregarProducto}" 
 		return "editarProducto";
 	}	
 
-	@GetMapping("/editarProducto/{ID}")
+	//@GetMapping("/editarProducto/{ID}")
+	@GetMapping("/editarProducto")
 	public String editarProducto(Model mod, @RequestParam("id") Long id) throws Exception {
 		// buscar con el id los datos del objeto
 		// obtener el objeto y pasarlo como atributo
@@ -67,6 +71,7 @@ public class ControllerProducto {
 		mod.addAttribute("prod", prod);
 		mod.addAttribute("nombreBoton", "Editar Producto");
 		mod.addAttribute("action", "editarProducto");
+		mod.addAttribute("visibleid", false);
 	//	mod.addAttribute("agregarProducto", false); LO USE PARA decidir si mostra un elemento html, pero lo saque porque el codProducto si o si tiene que estar
 		return "editarProducto";
 	}

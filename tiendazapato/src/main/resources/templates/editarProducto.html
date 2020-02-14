@@ -44,8 +44,8 @@
 					</div>
 					<div class="card-body">
 						<div class="form-group">
-							<label for="id">* id:</label> <input type="text" 	
-								class="form-control" placeholder="id" th:field="*{id}" readonly>
+							<label for="id" th:if="${visibleid}">* id:</label> <input type="text" 	
+								class="form-control" th:if="${visibleid}" placeholder="id" th:field="*{id}" readonly>
 					</div>
 						<div class="form-group">
 							<label for="CodProducto" >* CodProducto:</label> <input

@@ -32,8 +32,15 @@ public class Producto {
 	private Integer precio;
 	@Column(name="activo", nullable = true)	
 	private Integer activo=1;
-		
+	@Column(name="img", nullable = true)	
+	private String img;		
 
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
 	public Integer getActivo() {
 		return activo;
 	}

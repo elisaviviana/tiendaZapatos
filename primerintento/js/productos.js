@@ -1,7 +1,8 @@
 //fetch
 // fetch('http://my-json-server.typicode.com/elisaviviana/jsonDH')
 
-fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
+//fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
+fetch('http://localhost:8081/producto/productos')
 //muy importante empezar en 0 el id de los productos, para que distribulla bien los row
 .then(function(respuesta){
   return respuesta.json();
@@ -43,7 +44,7 @@ fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
     nuevodiv2.append(img);
     let nuevoh4=document.createElement('h4');
     nuevoh4.className+="display-5";
-    nuevoh4.innerHTML='Descripcion: '+elemento['desc'];
+    nuevoh4.innerHTML='Descripcion: '+elemento['descripcion'];
     nuevodiv2.append(nuevoh4);
     nuevop=document.createElement('p');
     nuevop.className+="mt-2";
@@ -53,7 +54,7 @@ fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
     nuevodiv3.className="mb-2 bg-success text-white text-center font-weight-bold text-decoration-none";
     nuevoa=document.createElement('a');
     nuevoa.className="text-reset";
-    nuevoa.href="descripcion.html?imagen=elemento['img']&descripcion=elemento['desc']&elemento['precio']";
+    nuevoa.href="descripcion.html?imagen=elemento['img']&descripcion=elemento['descripcion']&elemento['precio']";
     nuevoa.innerHTML='Agregar al Carrito';
     nuevodiv3.append(nuevoa);
     nuevodiv2.append(nuevodiv3);

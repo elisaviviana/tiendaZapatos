@@ -17,11 +17,11 @@ public class ControllerProducto {
 	@Autowired
 	private ServiceProducto prodServis;
 
-	@GetMapping("/")
-	public String cargarPrincipal() {
-		return "index";
-
-	}
+//	@GetMapping("/")
+//	public String cargarPrincipal() {
+//		return "index";
+//
+//	}
 
 	@GetMapping("/producto")
 	/**
@@ -46,8 +46,8 @@ public class ControllerProducto {
 	public String agregarProducto(Model mod) {
 		mod.addAttribute("prod", new Producto());
 		mod.addAttribute("nombreBoton", "Agregar Producto");
-		mod.addAttribute("action", "agregarProducto");			mod.addAttribute("visibleid", false);
-
+		mod.addAttribute("action", "agregarProducto");			
+		mod.addAttribute("visibleid", false);
 		mod.addAttribute("visibleid", false);
 
 		//mod.addAttribute("agregarProducto", true);LO USE PARA decidir si mostra un elemento html, 

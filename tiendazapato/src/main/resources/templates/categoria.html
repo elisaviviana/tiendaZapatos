@@ -125,8 +125,7 @@
 									
 									<td th:text="${categ.nombre}"></td>
 									<td>
-					<a href="#" th:href="@{'/editarCategoria?id='(id=${categ.id})}"><i class="fas fa-edit"></i></a> |
-                   
+					<a href="#"	th:href="@{/editarCategoria/{id}(id = ${categ.id})}"><i class="fas fa-edit"></i></a> |
 					<a href="#" th:href="@{'/eliminarCategoria?id='+ ${categ.id}}"><i class="fas fa-user-times"></i></a>
 			   		
 			

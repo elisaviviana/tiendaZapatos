@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import com.tz.tiendazapato.entidades.Genero;
@@ -32,8 +33,9 @@ import com.tz.tiendazapato.servicios.ServiceGenero;
 			return "editarGenero";
 			
 		}
-		@GetMapping("/editarGenero")
-		public String editarGenero(Model mod, @RequestParam("id") Long id) throws Exception {
+		
+		@GetMapping("/editarGenero/{id}")
+		public String editarGenero(Model mod, @PathVariable("id") Long id) throws Exception {
 		
 			Genero gene = geneServis.buscarGenero(id);
 

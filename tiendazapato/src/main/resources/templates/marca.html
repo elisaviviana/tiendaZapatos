@@ -122,9 +122,9 @@
 									
 									<td th:text="${marc.nombre}"></td>
 									<td>
-					<a href="#" th:href="@{'/editarMarca?id='(id=${marc.id})}"><i class="fas fa-edit"></i></a> |
-                   
-					<a href="#" th:href="@{'/eliminarMarca?id='+ ${marc.id}}"><i class="fas fa-user-times"></i></a>
+			
+					<a href="#"	th:href="@{/editarMarca/{id}(id = ${marc.id})}"><i class="fas fa-edit"></i></a>	|
+                   	<a href="#" th:href="@{'/eliminarMarca?id='+ ${marc.id}}"><i class="fas fa-user-times"></i></a>
 			   		
 			
 									</td>

@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import com.tz.tiendazapato.entidades.Categoria;
@@ -31,8 +32,11 @@ public class ControllerCategoria {
 		mod.addAttribute("visibleid", false);
 		return "editarCategoria";
 	}
-	@GetMapping("/editarCategoria")
-	public String editarCategoria(Model mod, @RequestParam("id") Long id) throws Exception {
+	
+
+	
+	@GetMapping("/editarCategoria/{id}")
+	public String editarCategoria(Model mod, @PathVariable("id") Long id) throws Exception {
 		// buscar con el id los datos del objeto
 		// obtener el objeto y pasarlo como atributo
 		// le pasa el nombre del boton porque esta reusando el formulario de alta

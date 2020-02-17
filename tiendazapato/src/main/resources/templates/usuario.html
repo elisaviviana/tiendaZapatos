@@ -133,8 +133,7 @@
 									<td th:text="${user.contrasenia}"></td>
 									<td th:text="${user.direccion}"></td>
 									<td>
-					<a href="#" th:href="@{'/editarUsuario?id='(id=${user.id})}"><i class="fas fa-edit"></i></a> |
-                   
+					<a href="#"	th:href="@{/editarUsuario/{id}(id = ${user.id})}"><i class="fas fa-edit"></i></a> |
 					<a href="#" th:href="@{'/eliminarUsuario?id='+ ${user.id}}"><i class="fas fa-user-times"></i></a>
 			   		
 			

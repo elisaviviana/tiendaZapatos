@@ -122,8 +122,8 @@
 									
 									<td th:text="${gene.nombre}"></td>
  									<td>
-					<a href="#" th:href="@{'/editarGenero?id='(id=${gene.id})}"><i class="fas fa-edit"></i></a> |
-
+					
+					<a href="#"	th:href="@{/editarGenero/{id}(id = ${gene.id})}"><i class="fas fa-edit"></i></a> |
 					<a href="#" th:href="@{'/eliminarGenero?id='+ ${gene.id}}"><i class="fas fa-user-times"></i></a>
 			
 									</td>

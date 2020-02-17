@@ -1,9 +1,8 @@
 //fetch
 // fetch('http://my-json-server.typicode.com/elisaviviana/jsonDH')
-
 //fetch('https://my-json-server.typicode.com/elisaviviana/jsonDH/productos')
+//fetch('http://localhost:8081/producto/productos', { mode: 'no-cors'})
 fetch('http://localhost:8081/producto/productos')
-//muy importante empezar en 0 el id de los productos, para que distribulla bien los row
 .then(function(respuesta){
   return respuesta.json();
 })
@@ -31,7 +30,7 @@ fetch('http://localhost:8081/producto/productos')
       produc.append(nuevorow);
       rowultimo = nuevorow;
       cantidad =0;
-}
+    }
 
     let nuevodiv = document.createElement('div');
     nuevodiv.className+="col-md-4 col-sm-4";
@@ -76,5 +75,5 @@ fetch('http://localhost:8081/producto/productos')
   // });
 })
 .catch(function(error){
-  console.log('Descripción del Error: ' + error);
+  console.log('Descripción del Error: '+   error );
 });

@@ -32,21 +32,7 @@ public class ServiceProductoImpl implements ServiceProducto {
 		return null;
 	}
 
-	@Override
-	public boolean editarProducto(Producto prod) throws Exception {
-		//validar que el codproducto exista.. si existe se hace la modificacion..sino da error
-		//si existe modifica el producto y devuelve true, sino devuelve false
-		/**
-		 * Si existe el codProducto hace la modificacion
-		 */
-		if(existeCodProd(prod.getCodProducto())) {
-			prodRepo.save(prod);
-			return true;
-		}else {
-			//return false;
-			throw new Exception("El producto no se puedo editar" );
-		}
-	}
+
 
 
 
@@ -65,6 +51,24 @@ public class ServiceProductoImpl implements ServiceProducto {
 			//throw new Exception("El producto no se puedo guardar" );
 		}
 	}
+	@Override
+	public boolean editarProducto(Producto prod) throws Exception {
+		//validar que el id exista.. si existe se hace la modificacion..sino da error
+		//si existe devuelve true, sino devuelve false
+		/**
+		 * Si existe el id hace la modificacion
+		 */
+		//if(existeCodProd(prod.getCodProducto())) {
+		if(existeID(prod.getId())) {	
+			prodRepo.save(prod);
+			return true;
+		}else {
+			//return false;
+			throw new Exception("El producto no se puedo editar, codigo de producto existe " );
+		}
+	}
+
+
 	@Override
 	public boolean eliminar(Producto prod) throws Exception {
 
@@ -91,7 +95,7 @@ public class ServiceProductoImpl implements ServiceProducto {
 
 	private boolean existeCodProd(String codProducto) {
 		/**
-		 * Si existe el Cod de producto no deja cargar uno nuevo
+		 * Verificar si existe el cod de producto
 		 */
 		// 1-buscar en la base de datos si ese codProducto existe,
 		//si existe false, sino true--- base de datos atravez del repositorio
@@ -102,9 +106,18 @@ public class ServiceProductoImpl implements ServiceProducto {
 		else {
 			return true;
 		}
-		
-		
 	}
+	
+	private boolean existeID(Long id) {
+		//1- buscar en la base si existe el id
+		//2- si existe devuelve true, sino flase
+			 if(prodRepo.existsById(id)) {
+				 return true;
+			 }else {
+					return false;				 
+			 }
+	}
+	
 
 
 

@@ -19,6 +19,8 @@ como hago para que no explote, porque devolviendo false vuelvo a la pagina princ
 busca en la tabla .. no en la base de datos.... verdad?
 
 SACAR LOS ID DE LOS FORMULARIOS
+cuando no hago visible el id en el formuario no lo pasa en el post y da error.. como lo puedo solucionar
+	
 
 /////////////////////////
 Falta de productos.

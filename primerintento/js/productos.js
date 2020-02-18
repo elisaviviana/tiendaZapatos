@@ -9,20 +9,14 @@ fetch('http://localhost:8081/producto/productos')
 .then(function(dataCruda){
   let produc = document.querySelector('.jsonproducto');
   let cantidad = 0;
+
   let nuevorow = document.createElement('div');
   nuevorow.className = "row ";
   produc.append(nuevorow);
   rowultimo = nuevorow;
   //recorremos cada elemento para crear el html
   dataCruda.forEach(function(elemento){
-    //si tenemos tres elementos creamos un nuevo row
-    // if(elemento['id']%3==0){
-    //   console.log("entro al ig ==0");
-    //   let nuevorow = document.createElement('div');
-    //   nuevorow.className = "row ";
-    //   produc.append(nuevorow);
-    //   rowultimo = nuevorow;
-    // }
+      let imgdefault = '/img/imagenNoDisponible.png';
     console.log(cantidad);
     while (cantidad==3) {
       let nuevorow = document.createElement('div');
@@ -35,26 +29,31 @@ fetch('http://localhost:8081/producto/productos')
     let nuevodiv = document.createElement('div');
     nuevodiv.className+="col-md-4 col-sm-4";
     let nuevodiv2=document.createElement('div');
-    nuevodiv2.className+="header-content-left";
+    nuevodiv2.className+="header-content-left width_71";
     nuevodiv.append(nuevodiv2);
     let img=document.createElement('img');
-    img.src+=src=elemento['img'];
-    img.style=style="width: 100%;"
+    if(elemento['img']!= null && elemento['img']!= ''&& elemento['img']!= ' ' ){
+      imgdefault = elemento['img'];
+    }
+  //  img.src+=src=elemento['img'];
+    img.src+=src=imgdefault;
+      img.style=style="width: 100%;"
     nuevodiv2.append(img);
-    let nuevoh4=document.createElement('h4');
-    nuevoh4.className+="display-5";
-    nuevoh4.innerHTML='Descripcion: '+elemento['descripcion'];
-    nuevodiv2.append(nuevoh4);
-    nuevop=document.createElement('p');
-    nuevop.className+="mt-2";
-    nuevop.innerHTML="Precio: $"+elemento['precio'];
-    nuevodiv2.append(nuevop);
+
+    let nuevohp=document.createElement('p');
+    nuevohp.className+="mt-2";
+    nuevohp.innerHTML=elemento['descripcion'];
+    nuevodiv2.append(nuevohp);
+    nuevoh=document.createElement('h5');
+    nuevoh.className+="display-6 price";
+    nuevoh.innerHTML="$"+elemento['precio'];
+    nuevodiv2.append(nuevoh);
     nuevodiv3=document.createElement('div');
     nuevodiv3.className="mb-2 bg-success text-white text-center font-weight-bold text-decoration-none";
     nuevoa=document.createElement('a');
     nuevoa.className="text-reset";
     nuevoa.href="descripcion.html?imagen=elemento['img']&descripcion=elemento['descripcion']&elemento['precio']";
-    nuevoa.innerHTML='Agregar al Carrito';
+    nuevoa.innerHTML='+info';
     nuevodiv3.append(nuevoa);
     nuevodiv2.append(nuevodiv3);
     rowultimo.append(nuevodiv);

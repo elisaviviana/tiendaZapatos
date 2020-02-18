@@ -76,4 +76,9 @@ input#CodProducto.form-control.CodProductoError{
 		/* border:1px solid #611111; */
 	    
 }
+img.imagenprincial {
+    width: 50%;
+    height: 50%;
+display:block;
+margin:auto;
 

@@ -48,45 +48,10 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="mx-auto col-sm-12 main-section" id="myTab" role="tablist">
-			<!-- definimos la barra de navegación -->
-			<!-- NAVIGATION -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<!-- con fragmentos se usa de esta forma -->
+		<header th:insert="headerFrag.html :: header"> </header>
+	<!-- 	//////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-				<a class="navbar-brand" href="/" target="_parent">Tienda Zapatos</a>
-				<button class="navbar-toggler btnheader" type="button"
-					data-toggle="collapse" data-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav ml-auto">
-
-						<a class="nav-item nav-link" href="/producto" target="_parent">Productos</a>
-						<a class="nav-item nav-link" href="/usuario" target="_parent">Usuario</a>
-						<a class="nav-item nav-link" href="/categoria" target="_parent">Categoria</a>
-						<a class="nav-item nav-link" href="/marca" target="_parent">Marca</a>
-						<a class="nav-item nav-link" href="/genero" target="_parent">Género</a>
-						<li class="nav-item dropdown"><a
-							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-							role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false"> <img id="imagenheader"
-								src="img/usuario20.png" alt="Login">
-						</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Perfil</a> <a
-									class="dropdown-item" href="#">Cambiar contraseña</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Cerrar</a>
-							</div></li>
-
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
 	<!-- <h3>definir que va en administar productos</h3>
  -->
 	<!-- 			Carga los productos en la pantalla principal -->

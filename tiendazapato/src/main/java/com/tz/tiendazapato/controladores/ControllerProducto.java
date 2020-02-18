@@ -49,7 +49,6 @@ public class ControllerProducto {
 		mod.addAttribute("nombreBoton", "Agregar Producto");
 		mod.addAttribute("action", "agregarProducto");			
 		mod.addAttribute("visibleid", false);
-		mod.addAttribute("visibleid", false);
 
 		//mod.addAttribute("agregarProducto", true);LO USE PARA decidir si mostra un elemento html, 
 		//pero lo saque porque el codProducto si o si tiene que estar, 

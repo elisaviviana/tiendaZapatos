@@ -1,7 +1,15 @@
 /////////////////////////
 DUDAS
 /////////////////////////
-1- no puedo agregar el encabezado y footer en la pagina de productos.html.. que tiene la tabla
+
+5-SACAR LOS ID DE LOS FORMULARIOS
+cuando no hago visible el id en el formuario no lo pasa en el post y da error.. como lo puedo solucionar
+
+6-NO MOSTRAR LOS ELIMINADOS
+
+
+
+1- RESUELTO no puedo agregar el encabezado y footer en la pagina de productos.html.. que tiene la tabla
 	<div th:include="header.html" ></div>
 	<div th:include="footer.html" ></div>
 	en las otras paginas que no tiene la tabla si funciona
@@ -9,18 +17,16 @@ DUDAS
 	
 2- @PostMapping("/agregarProducto") en controller...
  pude capturar el error.. pero no mostrar un mensaje de que el codProducto ya existe en la base
-
 3-// me da error en editar y agregar			
 throw new Exception("El producto no se puedo editar" );
 como hago para que no explote, porque devolviendo false vuelvo a la pagina principal de productos
 
 
-4-  como hace para buscar en la ventana principal de producto .. con search
+4- RESUELTO como hace para buscar en la ventana principal de producto .. con search
 busca en la tabla .. no en la base de datos.... verdad?
 
-SACAR LOS ID DE LOS FORMULARIOS
-cuando no hago visible el id en el formuario no lo pasa en el post y da error.. como lo puedo solucionar
-	
+
+
 
 /////////////////////////
 Falta de productos.

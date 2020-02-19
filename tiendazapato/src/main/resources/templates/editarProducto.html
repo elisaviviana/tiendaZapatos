@@ -24,17 +24,18 @@
 <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 <!-- Nuestro css-->
-<link rel="stylesheet" type="text/css" href="/css/main.css"	th:href="@{/css/main.css}">
+<link rel="stylesheet" type="text/css" href="/css/main.css"
+	th:href="@{/css/main.css}">
 
 
-</head>	
+</head>
 <body>
 	<!-- 	//////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<!-- Cargamos el header del un archivo para no repetir el código -->
 	<!-- 	<div th:include="header.html"></div> -->
-		<!-- con fragmentos se usa de esta forma -->
-		<header th:insert="headerFrag.html :: header"> </header>
-		
+	<!-- con fragmentos se usa de esta forma -->
+	<header th:insert="headerFrag.html :: header"> </header>
+
 	<!-- 	//////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<div class="container mt-5 formulario">
 		<div class="row">
@@ -47,9 +48,16 @@
 					</div>
 					<div class="card-body">
 						<div class="form-group">
- 							<label for="id">* id:</label> <input type="text"
-								class="form-control" placeholder="id" th:field="*{id}" readonly> 
-<!-- 							<label for="id" th:if="${visibleid}">* id:</label> <input type="text" 	
+							<img th:src="@{../}+*{img}"	class="img-fluid img-thumbnail" alt="Imagen No Encontrada">
+						</div>
+						<div class="form-group">
+							<label for="img">* Ruta imagen:</label> <input type="text"
+								class="form-control" placeholder="id" th:field="*{img}" >
+						</div>
+						<div class="form-group">
+							<label for="id">* id:</label> <input type="text"
+								class="form-control" placeholder="id" th:field="*{id}" readonly>
+							<!-- 							<label for="id" th:if="${visibleid}">* id:</label> <input type="text" 	
 								class="form-control" th:if="${visibleid}" placeholder="id" th:field="*{id}" readonly>  -->
 						</div>
 						<div class="form-group">
@@ -84,7 +92,7 @@
 								type="text" id="Descripcion" class="form-control"
 								placeholder="Descripcion" th:field="*{descripcion}" required>
 						</div>
-<!-- 						<div class="form-group">
+						<!-- 						<div class="form-group">
 							<label for="Imagen">* Link a imagén:</label> <input
 								type="text" id="imagen" class="form-control"
 								placeholder="Link a la imagen" th:field="*{imagen}" required>
@@ -97,7 +105,7 @@
 			</div>
 		</div>
 	</div>
-<footer th:insert="footerFrag.html :: footer"> </footer>	 
+	<footer th:insert="footerFrag.html :: footer"> </footer>
 
 </body>
 </html>

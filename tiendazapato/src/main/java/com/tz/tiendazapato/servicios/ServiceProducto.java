@@ -15,7 +15,6 @@ public interface ServiceProducto {
 	 * @throws Exception
 	 */
 	Producto buscarProducto(Long id) throws Exception;
-
 	/**
 	 * retorna un producto segun el codProducto
 	 * @param codProducto a buscar
@@ -28,7 +27,6 @@ public interface ServiceProducto {
 	 * @return Producto
 	 */
 	 Iterable<Producto>  buscarAllProducto();
-	
 	/**
 	 * Permite editar un Producto
 	 * @param prod es el producto a editar
@@ -36,7 +34,6 @@ public interface ServiceProducto {
 	 * @throws Exception 
 	 */
 	boolean editarProducto(Producto prod) throws Exception;
-
 	/**
 	 * Genera un nuevo producto en el sistema
 	 * @param prod a guardar

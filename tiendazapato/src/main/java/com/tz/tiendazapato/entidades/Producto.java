@@ -41,6 +41,7 @@ public class Producto {
 	private String img;		
 	
 	
+	
 
 	public String getImg() {
 		return img;

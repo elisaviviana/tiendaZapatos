@@ -24,7 +24,8 @@
 <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 <!-- Nuestro css-->
-<link rel="stylesheet" type="text/css" href="/css/main.css"	th:href="@{/css/main.css}">
+<link rel="stylesheet" type="text/css" href="/css/main.css"
+	th:href="@{/css/main.css}">
 
 
 <!-- DATA TABLE -->
@@ -45,8 +46,8 @@
 </script>
 </head>
 <body>
-		<!-- con fragmentos se usa de esta forma -->
-		<header th:insert="headerFrag.html :: header"> </header>
+	<!-- con fragmentos se usa de esta forma -->
+	<header th:insert="headerFrag.html :: header"> </header>
 	<!-- 	//////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 	<!-- Carga los productos en la pantalla principal -->
@@ -65,7 +66,8 @@
 					</div>
 
 					<div class="table-responsive w-auto">
-						<table id="prodList" class="table table-bordered table-hover table-striped ">
+						<table id="prodList"
+							class="table table-bordered table-hover table-striped table-image	">
 							<thead>
 								<tr>
 									<th scope="col">Imagen</th>
@@ -83,17 +85,21 @@
 							<tbody>
 
 								<tr th:each="prod : ${allProd}">
-									<td></td>
-									<td th:text="${prod.id}"></td>
 
+									<td class="w-25">
+									<img th:src="${prod.img}" class="img-fluid img-thumbnail" alt="Imagen No Encontrada">
+									</td>
+									<td th:text="${prod.id}"></td>
 									<td th:text="${prod.codProducto}"></td>
 									<td th:text="${prod.marca}"></td>
 									<td th:text="${prod.precio}"></td>
 									<td th:text="${prod.genero}"></td>
 									<td th:text="${prod.categoria}"></td>
 									<td th:text="${prod.descripcion}"></td>
-									<td><a href="#"	th:href="@{/editarProducto/{id}(id = ${prod.id})}"><i class="fas fa-edit"></i></a> |
- 									    <a href="#" th:href="@{'/eliminarProducto?id='+ ${prod.id}}"><i
+									<td><a href="#"
+										th:href="@{/editarProducto/{id}(id = ${prod.id})}"><i
+											class="fas fa-edit"></i></a> | <a href="#"
+										th:href="@{'/eliminarProducto?id='+ ${prod.id}}"><i
 											class="fas fa-user-times"></i></a> <!-- <a href="#" th:onclick="'javascript:confirmDelete(\''+ ${prod.id} +'\');'"><i class="fas fa-user-times"></i></a> -->
 
 									</td>
@@ -134,6 +140,6 @@
 
 		</div>
 	</div>
-		<footer th:insert="footerFrag.html :: footer"> </footer>
+	<footer th:insert="footerFrag.html :: footer"> </footer>
 </body>
 </html>

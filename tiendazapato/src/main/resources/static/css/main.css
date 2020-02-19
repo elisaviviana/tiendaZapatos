@@ -20,6 +20,12 @@ border: 0;
   color: #000;
   font-weight: bold;
 }
+a.navbar-brand {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
 .objheader {
   position: relative;
   z-index: 100;
@@ -81,4 +87,17 @@ img.imagenprincial {
     height: 50%;
 display:block;
 margin:auto;
+}
+
+.table-image {
+  td, th {
+    vertical-align: middle;
+  }
+}
+img.img-fluid.img-thumbnail{
+	    width: 120px;
+    height: 120px;
+	display:block;
+margin:auto;
+}
 

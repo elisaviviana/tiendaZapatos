@@ -83,8 +83,8 @@ input#CodProducto.form-control.CodProductoError{
 	    
 }
 img.imagenprincial {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
 display:block;
 margin:auto;
 }

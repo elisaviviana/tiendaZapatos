@@ -48,17 +48,23 @@
 					</div>
 					<div class="card-body">
 						<div class="form-group">
-							<img th:src="@{../}+*{img}"	class="img-fluid img-thumbnail" alt="Imagen No Encontrada">
+<!-- 		selecciona la imagen segun si es para agregar o modificar -->						<div th:switch="${action}">
+							<img th:case="'agregarProducto'" th:src="@{../}+${img}"	class="img-fluid img-thumbnail" alt="agregra-Imagen No Encontrada">
+							<img th:case="'editarProducto'" th:src="@{../}+*{img}"	class="img-fluid img-thumbnail" alt="editar-Imagen No Encontrada">
+						</div>	
+							
 						</div>
 						<div class="form-group">
 							<label for="img">* Ruta imagen:</label> <input type="text"
-								class="form-control" placeholder="id" th:field="*{img}" >
+								class="form-control" placeholder="Ruta a la imagen" th:field="*{img}" >
 						</div>
 						<div class="form-group">
 							<label for="id">* id:</label> <input type="text"
 								class="form-control" placeholder="id" th:field="*{id}" readonly>
-							<!-- 							<label for="id" th:if="${visibleid}">* id:</label> <input type="text" 	
+								
+							<!-- <label for="id" th:if="${visibleid}">* id:</label> <input type="text" 	
 								class="form-control" th:if="${visibleid}" placeholder="id" th:field="*{id}" readonly>  -->
+					
 						</div>
 						<div class="form-group">
 							<label for="CodProducto">* CodProducto:</label> <input

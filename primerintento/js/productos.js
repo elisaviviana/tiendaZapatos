@@ -37,7 +37,7 @@ fetch('http://localhost:8081/producto/productos')
     }
   //  img.src+=src=elemento['img'];
     img.src+=src=imgdefault;
-      img.style=style="width: 100%;"
+      img.style=style="width: 40%;"
     nuevodiv2.append(img);
 
     let nuevohp=document.createElement('p');
@@ -52,7 +52,7 @@ fetch('http://localhost:8081/producto/productos')
     nuevodiv3.className="mb-2 bg-success text-white text-center font-weight-bold text-decoration-none";
     nuevoa=document.createElement('a');
     nuevoa.className="text-reset";
-    nuevoa.href="descripcion.html?imagen=elemento['img']&descripcion=elemento['descripcion']&elemento['precio']";
+    nuevoa.href="descripcion.html?id="+elemento['id'];
     nuevoa.innerHTML='+info';
     nuevodiv3.append(nuevoa);
     nuevodiv2.append(nuevodiv3);

@@ -77,6 +77,7 @@
 									<th scope="col">id</th>
 									<th scope="col">Nombre</th>
 									<th></th>
+									<th></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -86,7 +87,8 @@
 									<td th:text="${gene.id}" ></td>
 									
 									<td th:text="${gene.nombre}"></td>
- 									<td>
+									<td th:classappend="${gene.activo} ? table-image : eliminado" th:text="${gene.activo}"></td>
+									<td>
 					
 					<a href="#"	th:href="@{/editarGenero/{id}(id = ${gene.id})}"><i class="fas fa-edit"></i></a> |
 					<a href="#" th:href="@{'/eliminarGenero?id='+ ${gene.id}}"><i class="fas fa-user-times"></i></a>

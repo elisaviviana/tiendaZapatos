@@ -14,4 +14,6 @@ public interface RepositoryProducto extends CrudRepository<Producto, Long> {
 	@Query("select p from Producto p where p.codProducto = ?1")
 	Producto findCodBarraIs(String codProducto);
 
+	
+	
 }

@@ -76,15 +76,16 @@
 									<th scope="col">id</th>
 									<th scope="col">Nombre</th>
 									<th></th>
+									<th></th>
 								</tr>
 							</thead>
 							<tbody>
 
-								<tr th:each="marc : ${allMarc}" >
+								<tr  th:each="marc : ${allMarc}" >
 									<td></td>
 									<td th:text="${marc.id}" ></td>
-									
 									<td th:text="${marc.nombre}"></td>
+									<td th:classappend="${marc.activo} ? table-image : eliminado" th:text="${marc.activo}"></td>
 									<td>
 			
 					<a href="#"	th:href="@{/editarMarca/{id}(id = ${marc.id})}"><i class="fas fa-edit"></i></a>	|
@@ -92,6 +93,7 @@
 			   		
 			
 									</td>
+								
 			 					</tr>
 
 							</tbody>

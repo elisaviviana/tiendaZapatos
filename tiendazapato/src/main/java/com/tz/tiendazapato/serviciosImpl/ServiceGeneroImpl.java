@@ -33,7 +33,6 @@ public class ServiceGeneroImpl implements ServiceGenero {
 
 	@Override
 	public Iterable<Genero> buscarAllGenero() {
-		// TODO Auto-generated method stub
 		return geneRepo.findAll();
 	}
 

@@ -34,7 +34,6 @@ public class ServiceMarcaImpl implements ServiceMarca {
 
 	@Override
 	public Iterable<Marca> buscarAllMarca() {
-		// TODO Auto-generated method stub
 		return marcRepo.findAll();
 	}
 

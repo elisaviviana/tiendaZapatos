@@ -78,7 +78,7 @@
 									<th scope="col">Género</th>
 									<th scope="col">Categoria</th>
 									<th scope="col">Descripción</th>
-
+<th></th>
 									<th></th>
 								</tr>
 							</thead>
@@ -96,6 +96,7 @@
 									<td th:text="${prod.genero}"></td>
 									<td th:text="${prod.categoria}"></td>
 									<td th:text="${prod.descripcion}"></td>
+									<td th:classappend="${prod.activo} ? table-image : eliminado" th:text="${prod.activo}"></td>
 									<td><a href="#"
 										th:href="@{/editarProducto/{id}(id = ${prod.id})}"><i
 											class="fas fa-edit"></i></a> | <a href="#"

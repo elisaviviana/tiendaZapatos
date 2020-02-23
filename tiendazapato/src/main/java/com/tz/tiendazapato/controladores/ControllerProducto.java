@@ -47,7 +47,8 @@ public class ControllerProducto {
 	public String agregarProducto(Model mod) {
 		mod.addAttribute("prod", new Producto());
 		mod.addAttribute("nombreBoton", "Agregar Producto");
-		mod.addAttribute("action", "agregarProducto");			
+		mod.addAttribute("action", "agregarProducto");	
+		mod.addAttribute("img", "/img/productos/NoDisponible.png");
 		mod.addAttribute("visibleid", false);
 
 		//mod.addAttribute("agregarProducto", true);LO USE PARA decidir si mostra un elemento html, 

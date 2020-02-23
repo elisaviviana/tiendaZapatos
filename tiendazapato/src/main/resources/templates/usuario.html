@@ -81,6 +81,7 @@
 									<th scope="col">Contraseña</th>
 									<th scope="col">Dirección</th>
 									<th></th>
+									<th></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -95,6 +96,8 @@
 									<td th:text="${user.dni}"></td>
 									<td th:text="${user.contrasenia}"></td>
 									<td th:text="${user.direccion}"></td>
+									<td th:classappend="${user.activo} ? table-image : eliminado" th:text="${user.activo}"></td>
+									
 									<td>
 					<a href="#"	th:href="@{/editarUsuario/{id}(id = ${user.id})}"><i class="fas fa-edit"></i></a> |
 					<a href="#" th:href="@{'/eliminarUsuario?id='+ ${user.id}}"><i class="fas fa-user-times"></i></a>

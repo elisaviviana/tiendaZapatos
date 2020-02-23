@@ -52,7 +52,7 @@ import com.tz.tiendazapato.servicios.ServiceGenero;
 			Genero gene = geneServis.buscarGenero(id);
 			if(geneServis.eliminar(gene)) {
 					mod.addAttribute("allGene", geneServis.buscarAllGenero());
-			return "genero";
+					return "genero";
 			}else {
 				//ver hacia donde voy cuando da error el actualizar a 0 el producto
 				mod.addAttribute("gene", gene);

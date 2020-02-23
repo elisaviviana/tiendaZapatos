@@ -14,7 +14,7 @@ public class Usuario {
 	private String nombre;
 	private String apellido;
 	private String email;
-	private int dni;
+	private String dni;
 	private String contrasenia;
 	private String direccion;
 	private Integer activo=1;
@@ -46,10 +46,10 @@ public class Usuario {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int getDni() {
+	public String getDni() {
 		return dni;
 	}
-	public void setDni(int dni) {
+	public void setDni(String dni) {
 		this.dni = dni;
 	}
 	public String getContrasenia() {

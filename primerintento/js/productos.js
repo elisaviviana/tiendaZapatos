@@ -52,7 +52,7 @@ fetch('http://localhost:8081/producto/productos')
     nuevodiv3.className="mb-2 bg-success text-white text-center font-weight-bold text-decoration-none";
     nuevoa=document.createElement('a');
     nuevoa.className="text-reset";
-    nuevoa.href="descripcion.html?id="+elemento['id'];
+    nuevoa.href="descripcion2.html?id="+elemento['id'];
     nuevoa.innerHTML='+info';
     nuevodiv3.append(nuevoa);
     nuevodiv2.append(nuevodiv3);
